@@ -1,0 +1,47 @@
+@charset "utf-8";
+.channelbox_list .pannel span, .box_A .box_tt h3 {background-image: url(../images/sprite.png); background-repeat: no-repeat;}
+.main {margin: 0;}
+.pagebar {height: 84px; background: #fff; padding: 0 20px;}
+.pagebar h2 {float: left; font-size: 32px; line-height: 84px;}
+.dybox {float: left; margin: 28px 0 0 15px; line-height: 31px;}
+.dybox span {margin-left: 15px; font-size: 14px;}
+.dybox_btn {float: left; display: block; width: 80px; height: 31px; background: url(../images/dybox.png); text-indent: -9999px;}
+.dybox_btn:hover {background-position: 0 -32px;}
+.dybox_btn_done {background-position: 0 -64px;}
+.dybox_btn_done:hover {background-position: 0 -96px;}
+.pagebar .share {float: right; margin-top: 22px;}
+.pagebar_fav {float: right; display: block; width: 70px; height: 30px; background: url(../images/dybox.png) 0 -128px; margin: 27px 0 0 5px; color: #fff; line-height: 30px; text-indent: 30px;}
+.pagebar_fav:hover {background-position: 0 -158px; color: #fff;}
+
+.channelbox_list {margin-left: -20px;}
+.channelbox_list li {position: relative; float: left; width: 270px; height: 130px; margin: 20px 0 0 20px; overflow: hidden; cursor: pointer;}
+.channelbox_list .title {position: absolute; left: 80px; top: 40px; font-size: 26px; color: #fff; line-height: 45px; border-top: solid #fff 1px; border-bottom: solid #fff 1px;}
+.channelbox_list .pannel {position: absolute; left: 0; top: 0; display: block; width: 200px; height: 130px; background: #b70707; padding: 0 35px; font-size: 14px; color: #fff; text-align: center;}
+.channelbox_list .pannel em {font-size: 26px; color: #fff; line-height: 46px;}
+.channelbox_list .pannel span {display: block; width: 124px; height: 28px; margin: 5px auto 0; color: #c10000; line-height: 28px; text-indent: 10px;}
+.channelbox_list .pannel span small {margin-left: 5px; font-size: 12px; color: #ccc;}
+
+.imgMod {margin-left: -20px;}
+.imgMod li {position: relative; float: left; width: 270px; height: 235px; margin: 20px 0 0 20px; overflow: hidden;}
+.imgMod .pic {height: 235px; background: #fff;}
+.imgMod img {width: 270px; height: 170px;}
+.imgMod_info {padding: 0 8px;}
+.imgMod_info h4 {height: 20px; margin: 8px 0 5px; font-size: 18px; font-weight: bold; overflow: hidden;}
+.imgMod_info p {color: #777;}
+.imgMod_info p em {margin-right: 10px; color: #555;}
+.imgMod_info .icon {left: 1px; top: 0; width: 29px; height: 29px;}
+.imgMod_info .icon_topic {background-position: 0 -30px}
+.imgMod_info .icon_rank {background-position: 0 -89px}
+.imgMod_info .icon_star {background-position: 0 -60px}
+.imgMod_info span {position: absolute; display: block; left: 10px; top: 128px; height: 30px; padding-left: 35px; margin-top: 5px; font-size: 15px; color: #fff; line-height: 30px;}
+.mask_more {position: absolute; left: 0; top: 0; display: block; width: 100%; height: 235px; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.6);}
+.mask_more span {position: absolute; left: 80px; top: 95px; font-size: 26px; color: #fff; line-height: 45px; border-top: solid #fff 1px; border-bottom: solid #fff 1px;}
+.imgMod_nor li, .imgMod_nor .pic {height: 260px;}
+.imgMod_nor .imgMod_info h4 {height: 42px;}
+.imgMod_nor .pic:hover {background: #c10000;}
+.imgMod_nor .pic:hover h4 {color: #fff;}
+.imgMod_nor .pic:hover .imgMod_info p, .imgMod_nor .pic:hover .imgMod_info p em {color: #ffd5d5;}
+
+.tabbox {height: 36px; margin-top: 20px; line-height: 36px;}
+.tabbox a {float: left; display: block; padding: 0 20px; font-size: 20px;}
+.tabbox .cur {background: #c10000; color: #fff;border-radius:17px;-moz-border-radius:17px;-webkit-border-radius:17px;}

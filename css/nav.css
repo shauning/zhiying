@@ -1,0 +1,37 @@
+@charset "utf-8";
+a:hover .ico {animation:navIcoMove .8s 1; -webkit-animation:navIcoMove .8s 1; -moz-animation:navIcoMove .8s 1;}
+.share .ico, .globelsearch input, .globelnav_logo, .globelnav .ico, .ico_navhover, .globelnav_ul .cur {background-image: url(../images/globelnav.png); background-repeat: no-repeat;}
+h1 {display: none;}
+.globelnav {position: relative; float: left; width: 130px;}
+.globelnav .ico {position: absolute; left: 3px; top: 2px; width: 30px; height: 30px;}
+.globelnav .ico_navhover {position: absolute; left: 0; top: 0; width: 0; height: 34px; background-position: 0 -226px; z-index: -1;}
+.globelnav_logo {width: 130px; height: 190px;animation:pop_fadein .5s alternate ease-in-out;-webkit-animation:pop_fadein .5s alternate ease-in-out;-moz-animation:pop_fadein .5s alternate ease-in-out;}
+.globelnav_ul {margin-top: 18px;}
+.globelnav_ul li {height: 34px; margin-bottom: 10px; line-height: 34px;}
+.globelnav_ul a {position: relative; display: block; padding-left: 43px; font-size: 16px; color: #000; font-family: "Microsoft Yahei";}
+.globelnav_ul_sec .first {padding: 12px 0; border-top: #dedede solid 1px;border-bottom: #dedede solid 1px;}
+.globelnav_ul a:hover .ico_navhover {width: 130px; transition:all .5s ease-in-out; animation:none;-webkit-animation:none;-moz-animation:none;}
+.globelnav_ul .cur, .globelnav_ul .cur:hover {background-position: 0 -261px; color: #fff;}
+.globelnav_ul .cur .ico_navhover {display: none;}
+.globelsearch input {width: 110px; height: 16px; background-position: 0 -191px; background-color: transparent; padding: 9px 10px; line-height: 16px; border: none;}
+.globelsearch input:focus, .globelsearch .cur {background-position: 0 -225px;}
+.globelslogan {margin: 10px 0 3px; font-size: 13px; color: #c10000; text-indent: 3px;}
+.globelcode {font-size: 13px;}
+.globelcode p {text-indent: 3px;}
+.globelcode em {color: #4aae0e;}
+.globelcode img {height: 128px; margin-top: 5px;}
+.ico_nav1 {background-position: -130px 0;}
+.ico_nav2 {background-position: -130px -30px;}
+.ico_nav3 {background-position: -130px -60px;}
+.ico_nav4 {background-position: -130px -90px;}
+.ico_nav5 {background-position: -130px -120px;}
+.ico_nav6 {background-position: -130px -150px;}
+.ico_nav7 {background-position: -130px -180px;}
+.ico_nav8 {background-position: -190px 0;}
+.ico_nav9 {background-position: -190px -30px;}
+.ico_nav10 {background-position: -190px -60px;}
+.globelnav_ul a:hover .ico_nav7 {background-position: -160px -180px;}
+.globelnav_ul a:hover .ico_nav8 {background-position: -220px 0;}
+.globelnav_ul a:hover .ico_nav9 {background-position: -220px -30px;}
+.globelnav_ul a:hover .ico_nav10 {background-position: -220px -60px;}
+.cur .ico_nav1 {background-position: -160px 0;}
