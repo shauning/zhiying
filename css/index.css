@@ -1,4 +1,127 @@
 @charset "utf-8";
+/* @author ------- www.weibo.com/shauning
+ * @design ------- vinha
+ * @time   ------- 2015-01-02*/
+/*reset*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,del,dfn,em,img,ins,strong,sub,sup,dd,dl,dt,li,ol,ul,fieldset,form,label,legend {margin:0;padding:0;}
+section,article,aside,header,footer,nav,dialog,figure,hgroup {display:block;}
+h1, h2, h3, h4, h5, h6 {font-size:100%; color: #333; font-weight:normal;}
+address, cite, em, i {font-style:normal;}
+li {list-style-type:none;}
+fieldset, img {border:0;}
+label,button {cursor: pointer;}
+select,input,textarea {font-size:12px;line-height:1.2em;outline:none;}
+body {min-width:1300px;height:100%;background:#f0f0f0 url(../images/bg_body.jpg);font:12px/1.8em "Microsoft Yahei","\5b8b\4f53","Arial Narrow";color:#666;}
+a {color:#333;outline:none;text-decoration:none;transition:all .5s ease-in-out;}
+a:hover {color:#c10000;transition:all .5s ease-in-out;}
+/*base*/
+.wrapper {width: 1300px; margin: 0 auto;}
+.main {float: right; width: 1140px; margin-top: 20px;}
+.ico {display: block; text-indent: -9999px; overflow: hidden;}
+.icon {background-image: url(../images/icon.png);}
+.icon {position: absolute; display: block;}
+.fn_hide {position: absolute; left: -9999px;}
+.floatL {float: left;}
+.floatR {float: right;}
+.col_1 {width: 270px;}
+.col_2 {width: 560px;}
+.col_3 {width: 850px;}
+.fs_14 {font-size: 14px !important;}
+.fs_15 {font-size: 15px !important;}
+.footer {height: 60px; font-size: 13px; line-height: 60px; text-align: center;}
+.wrapper:after, .box:after, .imgmod:after, .tagcloud:after, .channelbox_list:after, .imgMod:after, .comment_publish:after, .movielist:after, .rankbox_list_img:after, .content_pannel:after, .sitelist:after {content:"";display:table;clear:both}
+.wrapper, .box, .imgmod, .tagcloud, .channelbox_list, .imgMod, .comment_publish, .movielist, .rankbox_list_img, .content_pannel, .sitelist {*zoom:1}
+
+@keyframes navIcoMove
+{
+	0%   {transform: rotate(360deg) scaleX(1) scaleY(1)}
+	60%   {transform: rotate(0deg) scaleX(0) scaleY(0)}
+	100% {transform: rotate(0deg) scaleX(1) scaleY(1)}
+}
+@-webkit-keyframes navIcoMove
+{
+	0%   {transform: rotate(360deg) scaleX(1) scaleY(1)}
+	60%   {transform: rotate(0deg) scaleX(0) scaleY(0)}
+	100% {transform: rotate(0deg) scaleX(1) scaleY(1)}
+}
+@-moz-keyframes navIcoMove
+{
+	0%   {transform: rotate(360deg) scaleX(1) scaleY(1)}
+	60%   {transform: rotate(0deg) scaleX(0) scaleY(0)}
+	100% {transform: rotate(0deg) scaleX(1) scaleY(1)}
+}
+@keyframes pop_fadein
+{
+	0%   {opacity:0;transform:translateY(-50px);}
+	50%  {opacity:1;transform:translateY(4px);}
+	80%  {transform:translateY(-2px);}
+	100% {transform:translateY(0);}
+}
+@-webkit-keyframes pop_fadein
+{
+	0%   {opacity:0;transform:translateY(-50px);}
+	50%  {opacity:1;transform:translateY(4px);}
+	80%  {transform:translateY(-2px);}
+	100% {transform:translateY(0);}
+}
+@-moz-keyframes pop_fadein
+{
+	0%   {opacity:0;transform:translateY(-50px);}
+	50%  {opacity:1;transform:translateY(4px);}
+	80%  {transform:translateY(-2px);}
+	100% {transform:translateY(0);}
+}
+/*share*/
+.share a {float: left; display: block; height: 30px; margin:5px 0 0 2px; overflow: hidden;}
+.share .ico {position: static !important; width: 30px; height: 30px;}
+.ico_wb {background-position: -190px -90px}
+.ico_wb:hover {background-position: -220px -90px}
+.ico_wx {background-position: -190px -120px}
+.ico_wx:hover {background-position: -220px -120px}
+.ico_qzone {background-position: -190px -150px}
+.ico_qzone:hover {background-position: -220px -150px}
+.ico_tqq {background-position: -190px -180px}
+.ico_tqq:hover {background-position: -220px -180px}
+/*box*/
+.box {margin-bottom: 20px;}
+.box_tt {height: 36px; overflow: hidden;}
+.box_tt h3 {float: left; font-size: 30px; line-height: 34px; font-weight: bold;}
+.box_side {margin-bottom: 15px;}
+.box_side .box_tt h3 {font-size: 24px; line-height: 40px;}
+.act {float: right;}
+/*flag*/
+.flag {float: left; display: block; padding: 0 5px; margin:1px 5px 0 0; font-size: 14px; color: #fff;}
+.flag_red {background: #c10000;}
+.flag_ora {background: #ed6b0f;}
+.flag_gre {background: #5bbf1e;}
+/*contentlist*/
+.contentlist li {height: 170px; background: #fff; padding-right: 20px; margin-top: 20px;}
+.contentlist .pic {float: left; display: block; width: 270px; height: 170px; padding-left: 6px; margin:0 20px 0 -6px;}
+.contentlist .pic:hover {background: #c10000;}
+.contentlist h4 {height: 24px; padding-top: 12px; font-size: 20px; line-height: 22px; font-weight: bold; overflow: hidden;}
+.contentlist p {margin-top: 10px; font-size: 14px;}
+.contentlist_tag a {display: inline-block; padding: 0 10px; margin:10px 3px 0 0; line-height: 24px; border: solid #e7e7e7 1px;}
+.contentlist_tag a:hover {background: #c10000; color: #fff; border-color: #c10000;}
+.contentlist_info {margin-top: 12px; font-size: 13px; color: #777; line-height: 28px;}
+.contentlist_info img {float: left; width: 28px; height: 28px;}
+.contentlist_info a {margin:0 5px; color: #555;}
+.contentlist_info span {margin-left: 10px;}
+
+.tagcloud {margin:9px 0 0 -6px;}
+.tagcloud li {float: left; height: 35px; margin: 6px 0 0 6px; overflow: hidden;}
+.tagcloud a {display: block; width: 86px; background: #fff; line-height: 35px; text-align: center;}
+
+.channel li {position: relative; height: 62px; background: #fff; margin-top: 15px; overflow: hidden;}
+.channel .pic {float: left;display: block; width: 100px; height: 62px; margin-right: 15px;}
+.channel strong {display: block; margin-top: 8px; font-size: 15px; color: #555;}
+.channel .btn {position: absolute; right: 8px; top: 17px; width: 46px; line-height: 24px; text-align: center; border: solid #e7e7e7 1px;}
+.channel .btn:hover, .tagcloud a:hover, .morebox a:hover, .content .morebox a:hover {background: #c10000; color: #fff;}
+
+.morebox {margin: 20px 0;}
+.morebox a {display: block; background: #fff; font-size: 16px; color: #666; line-height: 45px; text-align: center;}
+.morebox .icon {display: inline-block; width: 13px; height: 8px; background-position: 0 -120px; margin: 20px 0 0 10px;}
+.morebox a:hover .icon {background-position: -14px -120px;}
+
 .pic {display: block;}
 .imgmod li {float: left;}
 .imgmod .pic {position: relative; display: block; background: #fff; overflow: hidden;}

@@ -1,5 +1,6 @@
 @charset "utf-8";
 .main {background: #fff; margin: 0;}
+.main_tt {margin: 10px 0 0 50px; font-size: 32px; line-height: 50px;}
 .content {float: left; width: 720px; padding-left: 50px; margin-top: 20px;}
 .content_side {float: right; width: 270px; padding-right: 50px; margin-top: 20px;}
 
@@ -22,7 +23,6 @@
 .dybox_btn:hover {background-position: 0 -32px;}
 .dybox_btn_done {background-position: 0 -64px;}
 .dybox_btn_done:hover {background-position: 0 -96px;}
-
 .content_pannel .share {float: left;}
 .pagebar_comment {float: left; display: block; width: 57px; height: 30px; background: url(../images/dybox.png) 0 -189px; margin: 5px 0 0 3px; color: #fff; line-height: 30px; text-indent: 25px;}
 .pagebar_comment:hover {background-position: 0 -219px; color: #fff;}
@@ -39,17 +39,16 @@
 .contentlist_185x117 .pic {width: 185px; height: 117px;}
 .contentlist_185x117 h4 {padding-top: 0;}
 .contentlist_185x117 p {height: 40px; overflow: hidden;}
-.contentlist_userstar li {height: 134px; border-bottom: 1px #e9e9e9 solid;}
-.contentlist_userstar .pic {width: 185px; height: 117px;}
-.contentlist_userstar .contentlist_info {margin-top: 10px;}
 
-.channelbox_list .pannel span {background-image: url(../images/sprite.png); background-repeat: no-repeat;}
-.channelbox_list li {position: relative; width: 270px; height: 130px; overflow: hidden; cursor: pointer;}
+.channelbox_list {margin-left: -20px;}
+.channelbox_list li {position: relative; float: left; width: 270px; height: 130px; margin: 20px 0 0 20px; overflow: hidden; cursor: pointer;}
 .channelbox_list .title {position: absolute; left: 80px; top: 40px; font-size: 26px; color: #fff; line-height: 45px; border-top: solid #fff 1px; border-bottom: solid #fff 1px;}
 .channelbox_list .pannel {position: absolute; left: 0; top: 0; display: block; width: 200px; height: 130px; background: #b70707; padding: 0 35px; font-size: 14px; color: #fff; text-align: center;}
 .channelbox_list .pannel em {font-size: 26px; color: #fff; line-height: 46px;}
-.channelbox_list .pannel span {display: block; width: 124px; height: 28px; margin: 5px auto 0; color: #c10000; line-height: 28px; text-indent: 10px;}
+.channelbox_list .pannel span {display: block; width: 124px; height: 28px; background-image: url(../images/sprite.png); background-repeat: no-repeat; margin: 5px auto 0; color: #c10000; line-height: 28px; text-indent: 10px;}
 .channelbox_list .pannel span small {margin-left: 5px; font-size: 12px; color: #ccc;}
+.channelbox_list_topic {margin: 0;}
+.channelbox_list_topic li {float: none; margin: 0;}
 
 .blocklist li {height: 35px; margin-bottom: 6px; font-size: 15px; line-height: 35px;}
 .blocklist .last {margin:0;}
@@ -122,7 +121,13 @@
 .rankbox_bar_tab {float: left; line-height: 40px;}
 .rankbox_bar_tab a {margin: 0 15px; font-size: 17px;}
 .rankbox_bar_tab .cur {color: #c10000; font-weight: bold;}
-.rankbox_bar_order {float: right;}
+.rankbox_bar_order {float: right; margin-top: 9px;}
+.rankbox_bar_order a {position: relative; padding-left: 20px; margin: 0 20px 0 0; font-size: 16px;}
+.rankbox_bar_order .icon {left: 0; top: 4px; width: 16px; height: 15px; background: url(../images/rankbox_bar.png);}
+.rankbox_bar_order .icon_pic {background-position: -17px 0;}
+.rankbox_bar_order .cur {color: #c10000;}
+.rankbox_bar_order .cur .icon_txt {background-position: 0 -16px;}
+.rankbox_bar_order .cur .icon_pic {background-position: -17px -16px;}
 
 .rankbox_list li {height: 230px; margin-top: 20px;}
 .rankbox_list .num {position: absolute; left: 0; top: 0; width: 44px; background: #b50b0b; font-size: 20px; color: #fff; line-height: 35px; text-align: center;}
@@ -132,8 +137,8 @@
 .rankbox_list_img a {display: block; font-size: 16px;}
 .rankbox_list_img em {margin: 5px; font-size: 18px; color: #d60f00;}
 
-.staruser {position: relative; height: 190px; padding:0 320px 0 200px; margin: 0 50px; font-size: 14px; border-bottom: 2px #ececec solid;}
-.staruser .face {position: absolute; left: 0; top: 0;}
+.staruser {position: relative; height: 190px; padding:20px 320px 0 200px; margin: 0 50px; font-size: 14px; border-bottom: 2px #ececec solid;}
+.staruser .face {position: absolute; left: 0; top: 20px;}
 .staruser h2 {font-size: 30px; line-height: 40px;}
 .staruser_title {position: relative; height: 30px; font-size: 15px; line-height: 30px;}
 .staruser_title .ico {float: left; width: 20px; height: 30px; background: url(../images/ico_v.png); margin-right: 10px;}
@@ -141,8 +146,13 @@
 .staruser_atten li {float: left; width: 85px; height: 45px; line-height: 26px; text-align: center; border-right: 1px #cacaca solid;}
 .staruser_atten li:last-child {border-right: none;}
 .staruser_atten strong {display: block; font-size: 24px; color: #333;}
-
 .staruser_tab {line-height: 40px;}
 .staruser_tab a {display: inline-block; margin-right: 40px; font-size: 24px;}
 .staruser_tab .cur {color: #c10000; border-bottom: 6px #c10000 solid;}
 
+.sitelist {padding: 0 0 20px 50px;}
+.sitelist li {position: relative; float: left; width: 350px; height: 130px; padding-left: 140px; margin:30px 50px 0 0;}
+.sitelist .pic {position: absolute; left: 0; top: 0;}
+.sitelist h3 {font-size: 18px;}
+.sitelist p {height: 40px; margin: 0 0 8px; font-size: 14px;}
+.sitelist .btn {display: inline-block; background: #ebebeb; padding: 0 18px; font-size: 14px; line-height: 26px; -moz-border-radius:13px;-webkit-border-radius:13px;border-radius:13px;}
