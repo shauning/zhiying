@@ -3,6 +3,16 @@
 .main_tt {margin: 10px 0 0 50px; font-size: 32px; line-height: 50px;}
 .content {float: left; width: 720px; padding-left: 50px; margin-top: 20px;}
 .content_side {float: right; width: 270px; padding-right: 50px; margin-top: 20px;}
+@-webkit-keyframes fadeOutUp {
+  0% {opacity: 1;}
+  100% {opacity: 0;-webkit-transform: translate3d(0, -100%, 0);transform: translate3d(0, -100%, 0);}
+}
+
+@keyframes fadeOutUp {
+  0% {opacity: 1;}
+	100% {opacity: 0;-webkit-transform: translate3d(0, -100%, 0);transform: translate3d(0, -100%, 0);}
+}
+.fadeOutUp {animation:fadeOutUp .8s 1; -webkit-animation:fadeOutUp .8s 1;}
 
 .content_title {position: relative; height: 130px; padding-left: 15px; margin: 20px 30px 0; border-left: #ffd21a 7px solid;}
 .content_nav {font-size: 13px; line-height: 14px;}
@@ -28,6 +38,9 @@
 .pagebar_comment:hover {background-position: 0 -219px; color: #fff;}
 .pagebar_fav {float: left; display: block; width: 70px; height: 30px; background: url(../images/dybox.png) 0 -128px; margin: 5px 0 0 3px; color: #fff; line-height: 30px; text-indent: 30px;}
 .pagebar_fav:hover {background-position: 0 -158px; color: #fff;}
+.content_b_pannel {height: 35px; margin: 50px 0 20px;}
+.content_b_pannel .mod_tag {float: left; margin-top: 5px;}
+.content_b_pannel .content_pannel {float: right;}
 
 .article {margin-bottom: 20px;}
 .article_img {margin-bottom: 30px;}
@@ -91,6 +104,8 @@
 .comment_list_pannel span {float: left; font-size: 13px; color: #777;}
 .fav, .reply {position: relative; float: right; padding-left: 20px; margin-left: 20px;}
 .fav .icon {left: 0; top: 3px; width: 16px; height: 15px; background-position: 0 -150px;}
+.fav:hover .icon {background-position: 0 -166px;}
+.fav_cur .icon {background-position: 0 -166px;}
 .reply .icon {left: 0; top: 3px; width: 16px; height: 15px; background-position: 0 -134px;}
 
 .comment_list .comment_publish {margin-top: 25px;}

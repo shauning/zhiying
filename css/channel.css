@@ -34,8 +34,8 @@
 .imgMod_info .icon_rank {background-position: 0 -89px}
 .imgMod_info .icon_star {background-position: 0 -60px}
 .imgMod_info span {position: absolute; display: block; left: 10px; top: 128px; height: 30px; padding-left: 35px; margin-top: 5px; font-size: 15px; color: #fff; line-height: 30px;}
-.mask_more {position: absolute; left: 0; top: 0; display: block; width: 100%; height: 235px; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.6);}
-.mask_more span {position: absolute; left: 80px; top: 95px; font-size: 26px; color: #fff; line-height: 45px; border-top: solid #fff 1px; border-bottom: solid #fff 1px;}
+.mask_more {position: absolute; left: 0; top: 0; display: block; width: 100%; height: 260px; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.6);}
+.mask_more span {position: absolute; left: 80px; top: 110px; font-size: 26px; color: #fff; line-height: 45px; border-top: solid #fff 1px; border-bottom: solid #fff 1px;}
 .imgMod_nor li, .imgMod_nor .pic {height: 260px;}
 .imgMod_nor .imgMod_info h4 {height: 42px;}
 .imgMod_nor .pic:hover {background: #c10000;}

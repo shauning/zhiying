@@ -88,7 +88,11 @@ a:hover {color:#c10000;transition:all .5s ease-in-out;}
 .box_tt h3 {float: left; font-size: 30px; line-height: 34px; font-weight: bold;}
 .box_side {margin-bottom: 15px;}
 .box_side .box_tt h3 {font-size: 24px; line-height: 40px;}
-.act {float: right;}
+.act {float: right; margin-top: 4px;}
+.act_fresh {line-height: 27px;}
+.act_fresh a {position: relative; padding-left: 35px; font-size: 16px; color: #c10000;}
+.act_fresh a:hover .icon {transform: rotate(360deg);-webkit-transform: rotate(360deg);-webkit-transition:all .5s linear;transition:all .5s linear;}
+.act_fresh .icon {width: 27px; height: 27px; background-position: 0 -183px;}
 /*flag*/
 .flag {float: left; display: block; padding: 0 5px; margin:1px 5px 0 0; font-size: 14px; color: #fff;}
 .flag_red {background: #c10000;}

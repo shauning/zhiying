@@ -18,8 +18,7 @@ a:hover {color:#c10000;transition:all .5s ease-in-out;}
 .wrapper {width: 1300px; margin: 0 auto;}
 .main {float: right; width: 1140px; margin-top: 20px;}
 .ico {display: block; text-indent: -9999px; overflow: hidden;}
-.icon {background-image: url(../images/icon.png);}
-.icon {position: absolute; display: block;}
+.icon {position: absolute; display: block; background-image: url(../images/icon.png);}
 .fn_hide {position: absolute; left: -9999px;}
 .floatL {float: left;}
 .floatR {float: right;}
@@ -29,8 +28,8 @@ a:hover {color:#c10000;transition:all .5s ease-in-out;}
 .fs_14 {font-size: 14px !important;}
 .fs_15 {font-size: 15px !important;}
 .footer {height: 60px; font-size: 13px; line-height: 60px; text-align: center;}
-.wrapper:after, .box:after, .imgmod:after, .tagcloud:after, .channelbox_list:after, .imgMod:after, .comment_publish:after, .movielist:after, .rankbox_list_img:after, .content_pannel:after, .sitelist:after {content:"";display:table;clear:both}
-.wrapper, .box, .imgmod, .tagcloud, .channelbox_list, .imgMod, .comment_publish, .movielist, .rankbox_list_img, .content_pannel, .sitelist {*zoom:1}
+.wrapper:after, .box:after, .imgmod:after, .tagcloud:after, .channelbox_list:after, .imgMod:after, .comment_publish:after, .movielist:after, .rankbox_list_img:after, .content_pannel:after, .sitelist:after, .loginbox_con:after {content:"";display:table;clear:both}
+.wrapper, .box, .imgmod, .tagcloud, .channelbox_list, .imgMod, .comment_publish, .movielist, .rankbox_list_img, .content_pannel, .sitelist, .loginbox_con {*zoom:1}
 
 @keyframes navIcoMove
 {
@@ -95,6 +94,10 @@ a:hover {color:#c10000;transition:all .5s ease-in-out;}
 .box_C .box_tt h3 {font-size: 22px;}
 .box_C .box_tt h3 span {font-size: 18px; color: #666; font-weight: normal;}
 .act {float: right;}
+.act_fresh {line-height: 27px;}
+.act_fresh a {position: relative; padding-left: 35px; font-size: 16px; color: #c10000;}
+.act_fresh a:hover .icon {transform: rotate(360deg);-webkit-transform: rotate(360deg);-webkit-transition:all .5s linear;transition:all .5s linear;}
+.act_fresh .icon {width: 27px; height: 27px; background-position: 0 -183px;}
 .pic {display: block;}
 /*flag*/
 .flag {float: left; display: block; padding: 0 5px; margin:1px 5px 0 0; font-size: 14px; color: #fff;}
@@ -130,5 +133,29 @@ a:hover {color:#c10000;transition:all .5s ease-in-out;}
 .morebox a:hover .icon {background-position: -14px -120px;}
 .content .morebox a {background: #f4f4f4;}
 
-.movielist li {float: left; width: 165px; font-size: 15px; text-align: center;}
+.movielist {margin-left: -20px;}
+.movielist li {float: left; width: 165px; margin: 20px 0 0 20px; font-size: 15px; text-align: center;}
 .movielist .pic {width: 165px; height: 230px; margin-bottom: 5px;}
+
+.loginbox {width: 560px; background: #fff;}
+.loginbox_tt {height: 52px; background: #6c6c6c;}
+.loginbox_tt strong {float: left; padding: 0 25px; font-size: 20px; color: #fff; line-height: 52px; cursor: pointer;}
+.loginbox_tt .cur {background: #fff; color: #333;}
+.loginbox_tt .close {float: right; display: block; width: 31px; height: 31px; background: url(../images/loginbox.png) -195px -71px; margin: 10px 20px 0 0; text-indent: -9999px}
+.loginbox_tt .close:hover {background-position: -195px -39px;}
+.loginbox_con {padding: 20px 25px 10px;}
+.loginbox_fi {float: left; width: 290px;}
+.loginbox_fi_div {height: 16px; margin-top: 10px; font-size: 13px;}
+.loginbox_fi_div .checkbox {float: left; margin-top: 4px;}
+.loginbox_fi_div label {margin-right: 10px;}
+.loginbox_fi .tip {height: 21px; color: #c10000; font-size: 13px; text-align: right;}
+.loginbox_fi .input {width: 268px; height: 20px; padding: 9px 10px; margin-top: 10px; font-size: 14px; line-height: 20px; border: 1px #d7d7d7 solid;}
+.loginbox_fi .button {width: 290px; height: 40px; background: #c21111; margin-top: 10px; font-size: 16px; color: #fff; border: none;}
+.loginbox_code {height: 50px; overflow: hidden;}
+.loginbox_code .input {float: left; width: 140px;}
+.loginbox_code_img {float: left; width: 126px; height: 38px; margin-top: 10px; border: 1px #d7d7d7 solid; border-left: none;}
+.loginbox_code_img img {float: left; width: 80px; height: 38px;}
+.loginbox_code_img .btn {float: left; display: block; width: 37px; height: 38px; background: url(../images/loginbox.png) -195px 0; text-indent: -9999px;}
+.loginbox_more {float: right; width: 161px; background: url(../images/loginbox.png) no-repeat 0 28px; padding-left: 33px;}
+.loginbox_more p {height: 29px; font-size: 13px;}
+.loginbox_more .btn {display: block; width: 161px; height: 40px; margin-bottom: 10px; font-size: 14px; color: #fff; line-height: 40px; text-indent: 52px;}
