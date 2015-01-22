@@ -1,8 +1,9 @@
 @charset "utf-8";
 .channelbox_list .pannel span, .box_A .box_tt h3 {background-image: url(../images/sprite.png); background-repeat: no-repeat;}
 .main {margin: 0;}
-.pagebar {height: 84px; background: #fff; padding: 0 20px;}
+.pagebar {position: relative; height: 84px; background: #fff; padding: 0 20px;}
 .pagebar h2 {float: left; font-size: 32px; line-height: 84px;}
+.pagebar_h {height: 95px;}
 .dybox {float: left; margin: 28px 0 0 15px; line-height: 31px;}
 .dybox span {margin-left: 15px; font-size: 14px;}
 .dybox_btn {float: left; display: block; width: 80px; height: 31px; background: url(../images/dybox.png); text-indent: -9999px;}
@@ -12,6 +13,7 @@
 .pagebar .share {float: right; margin-top: 22px;}
 .pagebar_fav {float: right; display: block; width: 70px; height: 30px; background: url(../images/dybox.png) 0 -128px; margin: 27px 0 0 5px; color: #fff; line-height: 30px; text-indent: 30px;}
 .pagebar_fav:hover {background-position: 0 -158px; color: #fff;}
+.pagebar_intro {position: absolute; left: 20px; top: 65px; font-size: 13px;}
 
 .channelbox_list {margin-left: -20px;}
 .channelbox_list li {position: relative; float: left; width: 270px; height: 130px; margin: 20px 0 0 20px; overflow: hidden; cursor: pointer;}
@@ -45,3 +47,16 @@
 .tabbox {height: 36px; margin-top: 20px; line-height: 36px;}
 .tabbox a {float: left; display: block; padding: 0 20px; font-size: 20px;}
 .tabbox .cur {background: #c10000; color: #fff;border-radius:17px;-moz-border-radius:17px;-webkit-border-radius:17px;}
+
+.scrollmod {position: relative; height: 280px;}
+.scrollmod_con {position: relative; width: 1140px; height: 280px; overflow: hidden;}
+.scrollmod_con ul {position: relative;}
+.scrollbtn {position: absolute; top: 76px; display: none; width: 48px; height: 70px; background: url(../images/scrollbtn.png); text-indent: -9999px;}
+.scrollbtn_pre {left: 0;}
+.scrollbtn_pre:hover {background-position: 0 -71px;}
+.scrollbtn_next {right: 0; background-position: -49px 0}
+.scrollbtn_next:hover {background-position: -49px -71px;}
+.scrollbtn_pre_false, .scrollbtn_next_false {opacity: 0.2;filter:alpha(opacity=20); cursor: default;}
+.scrollbtn_pre_false:hover { background-position: 0 0;}
+.scrollbtn_next_false:hover { background-position: -49px 0;}
+.scrollmod:hover .scrollbtn {display: block;}
