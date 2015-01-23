@@ -150,7 +150,7 @@ a:hover {color:#c10000;transition:all .5s ease-in-out;}
 .loginbox_fi_div label {margin-right: 10px;}
 .loginbox_fi .tip {height: 21px; color: #c10000; font-size: 13px; text-align: right;}
 .loginbox_fi .input {width: 268px; height: 20px; padding: 9px 10px; margin-top: 10px; font-size: 14px; line-height: 20px; border: 1px #d7d7d7 solid;}
-.loginbox_fi .button {width: 290px; height: 40px; background: #c21111; margin-top: 10px; font-size: 16px; color: #fff; border: none;}
+.loginbox_fi .button {width: 290px; height: 40px; background: #c21111; margin-top: 10px; font-size: 16px; color: #fff; font-family: "Microsoft Yahei"; border: none;}
 .loginbox_code {height: 50px; overflow: hidden;}
 .loginbox_code .input {float: left; width: 140px;}
 .loginbox_code_img {float: left; width: 126px; height: 38px; margin-top: 10px; border: 1px #d7d7d7 solid; border-left: none;}

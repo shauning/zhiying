@@ -129,8 +129,8 @@ a:hover {color:#c10000;transition:all .5s ease-in-out;}
 .pic {display: block;}
 .imgmod li {float: left;}
 .imgmod .pic {position: relative; display: block; background: #fff; overflow: hidden;}
-.imgmod_info {position: absolute; left: 0; bottom: 0; height: 100px; padding: 0 8px; overflow: hidden; z-index: 2; cursor: pointer;}
-.imgmod_info h3 {width: 100%; height: 20px; margin: 10px 0 5px; font-size: 18px; font-weight: bold; overflow: hidden; white-space: nowrap; text-overflow:ellipsis;}
+.imgmod_info {position: absolute; left: 0; bottom: 0; height: 100px; padding: 0 8px; overflow: hidden; z-index: 2; cursor: pointer;transition:all .3s ease;-webkit-transition:all .3s ease;}
+.imgmod_info h3 {width: 100%; height: 22px; margin: 8px 0 5px; font-size: 18px; line-height: 24px; font-weight: bold; overflow: hidden; white-space: nowrap; text-overflow:ellipsis;}
 .imgmod_info .icon {left: 1px; top: 0; width: 29px; height: 29px;}
 .imgmod_info .icon_topic {background-position: 0 -30px}
 .imgmod_info .icon_rank {background-position: 0 -89px}
@@ -138,7 +138,7 @@ a:hover {color:#c10000;transition:all .5s ease-in-out;}
 .imgmod_info span {position: relative; display: block; height: 30px; padding-left: 35px; margin-top: 5px; font-size: 15px; color: #fff; line-height: 30px;}
 .imgmod_info p {color: #777;}
 .imgmod_info p em {margin-right: 10px; color: #555;}
-.imgmod_mask {position: absolute; left: 0; bottom: 0; width: 100%; height: 100px;-webkit-transition:all .3s ease;}
+.imgmod_mask {position: absolute; left: 0; bottom: 0; width: 100%; height: 100px;transition:all .3s ease;-webkit-transition:all .3s ease;}
 .imgmod .pic:hover {color: #fff;}
 .pic:hover .imgmod_info p, .pic:hover .imgmod_info p em {color: #ffd5d5;}
 .pic:hover .imgmod_info h3 {height: auto !important; color: #fff; white-space: normal;}

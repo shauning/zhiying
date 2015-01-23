@@ -55,8 +55,10 @@
 
 .channelbox_list {margin-left: -20px;}
 .channelbox_list li {position: relative; float: left; width: 270px; height: 130px; margin: 20px 0 0 20px; overflow: hidden; cursor: pointer;}
+.channelbox_list .link {display: block;}
+.channelbox_list .link img {width: 270px; height: 130px;}
 .channelbox_list .title {position: absolute; left: 80px; top: 40px; font-size: 26px; color: #fff; line-height: 45px; border-top: solid #fff 1px; border-bottom: solid #fff 1px;}
-.channelbox_list .pannel {position: absolute; left: 0; top: 0; display: block; width: 200px; height: 130px; background: #b70707; padding: 0 35px; font-size: 14px; color: #fff; text-align: center;}
+.channelbox_list .pannel {position: absolute; display: block; width: 200px; height: 130px; background: #b70707; padding: 0 35px; font-size: 14px; color: #fff; text-align: center;}
 .channelbox_list .pannel em {font-size: 26px; color: #fff; line-height: 46px;}
 .channelbox_list .pannel span {display: block; width: 124px; height: 28px; background-image: url(../images/sprite.png); background-repeat: no-repeat; margin: 5px auto 0; color: #c10000; line-height: 28px; text-indent: 10px;}
 .channelbox_list .pannel span small {margin-left: 5px; font-size: 12px; color: #ccc;}
@@ -94,7 +96,7 @@
 .comment {margin-top: 20px;}
 .comment_publish .face {float: left; width: 47px;}
 .comment_publish .input {float: left; width: 495px; height: 22px; padding: 9px 10px; margin: 2px 0 0 20px; font-size: 16px; line-height: 22px; border: 1px #ccc solid;}
-.comment_publish .button {float: right; width: 116px; background: #c00606; padding: 0; margin-top: 2px; font-size: 18px; color: #fff; line-height: 42px; border: none;}
+.comment_publish .button {float: right; width: 116px; background: #c00606; padding: 0; margin-top: 2px; font-size: 18px; color: #fff; font-family: "Microsoft Yahei"; line-height: 42px; border: none;}
 .comment_list li {position: relative; padding: 20px 0 20px 65px; border-bottom: 1px #e4e4e4 solid;}
 .comment_list li:last-child {border: none;}
 .comment_list .face {position: absolute; left: 0; top: 20px;}
@@ -117,7 +119,7 @@
 .moviedetail h2 {margin-bottom: 10px; font-size: 25px;}
 .moviedetail p {font-size: 15px; line-height: 26px; overflow: hidden;}
 .moviedetail .mod_tag {margin: 10px 0;}
-.moviedetail_btn {display: block; width: 122px; height: 38px; background: url(../images/btn_1.png); font-size: 18px; color: #fff; line-height: 38px; text-indent: 45px;}
+.moviedetail_btn {display: block; width: 122px; height: 38px; background: url(../images/btn_1.png); font-size: 18px; color: #fff !important; line-height: 38px; text-indent: 45px;}
 .movie_intro {margin-top: 10px;}
 .movie_intro p {font-size: 15px; line-height: 26px;}
 .movie_intro a {color: #c10000;}
@@ -145,7 +147,7 @@
 .rankbox_bar_order .cur .icon_pic {background-position: -17px -16px;}
 
 .rankbox_list li {height: 230px; margin-top: 20px;}
-.rankbox_list .num {position: absolute; left: 0; top: 0; width: 44px; background: #b50b0b; font-size: 20px; color: #fff; line-height: 35px; text-align: center;}
+.rankbox_list .num {position: absolute; left: 0; top: 0; width: 44px; background: #b50b0b; font-size: 20px; color: #fff; line-height: 35px; text-align: center; z-index: 2;}
 .rankbox_list_img {margin-left: -20px;}
 .rankbox_list_img li {float: left; width: 165px; margin: 20px 0 0 20px;}
 .rankbox_list_img img {display: block; width: 165px; height: 230px;}
@@ -164,10 +166,27 @@
 .staruser_tab {line-height: 40px;}
 .staruser_tab a {display: inline-block; margin-right: 40px; font-size: 24px;}
 .staruser_tab .cur {color: #c10000; border-bottom: 6px #c10000 solid;}
+.staruser_pannel {margin-top: 10px;}
+.staruser_pannel a {float: left; display: block; height: 30px; background: #c0c0c0; padding: 0 15px; margin-right: 10px; font-size: 15px; color: #fff; line-height: 30px; -moz-border-radius:13px;-webkit-border-radius:13px;border-radius:13px;}
+.staruser_pannel a:hover {background: #c10000;}
 
 .sitelist {padding: 0 0 20px 50px;}
 .sitelist li {position: relative; float: left; width: 350px; height: 130px; padding-left: 140px; margin:30px 50px 0 0;}
 .sitelist .pic {position: absolute; left: 0; top: 0;}
 .sitelist h3 {font-size: 18px;}
 .sitelist p {height: 40px; margin: 0 0 8px; font-size: 14px;}
-.sitelist .btn {display: inline-block; background: #ebebeb; padding: 0 18px; font-size: 14px; line-height: 26px; -moz-border-radius:13px;-webkit-border-radius:13px;border-radius:13px;}
+.sitelist .btn {display: inline-block; background: #ebebeb; padding: 0 18px; font-size: 14px; line-height: 26px; -moz-border-radius:15px;-webkit-border-radius:15px;border-radius:15px;}
+
+.userset {width: 570px; margin: 30px 0 30px 200px;}
+.userset h3 {margin-bottom: 20px; font-size: 20px; color: #c10000; font-weight: bold;}
+.userset_pic {height: 100px; overflow: hidden;}
+.userset_pic_img {float: left; width: 100px; height: 100px; background: url(../images/userset_pic_img.png) no-repeat center center; margin-right: 25px;}
+.userset_pic p {margin: 10px 0;}
+.userset_pic .btn{float: left; display: block; height: 30px; background: #c10000; padding: 0 15px; margin-right: 10px; font-size: 15px; color: #fff; line-height: 30px; -moz-border-radius:15px;-webkit-border-radius:15px;border-radius:15px;}
+.userset_div {position: relative; min-height: 40px; padding-left: 90px; margin-top: 15px; line-height: 40px;}
+.userset_div .input {width: 420px; height: 20px; padding: 9px 10px; font-size: 14px; line-height: 20px; border: 1px #d7d7d7 solid;}
+.userset_div label {position: absolute; left: 0; top: 0; font-size: 18px; color: #333;}
+.userset_div textarea {width: 420px; height: 180px; padding: 9px 10px; font-size: 14px; line-height: 20px; border: 1px #d7d7d7 solid;}
+.userset_div em {margin: 2px 0 0 10px; font-size: 16px; color: #c10000;}
+.userset_div p {padding-right: 40px; text-align: right;}
+.userset .button {display: block; width: 120px; height: 30px; background: #c10000; margin: 30px auto 0; font-size: 15px; color: #fff; line-height: 30px; -moz-border-radius:15px;-webkit-border-radius:15px;border-radius:15px; border: none;}
