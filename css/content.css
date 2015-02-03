@@ -1,6 +1,8 @@
 @charset "utf-8";
 .main {background: #fff; margin: 0;}
 .main_tt {margin: 10px 0 0 50px; font-size: 32px; line-height: 50px;}
+.pagebar {position: relative; float: right; width: 1100px; height: 84px; background: #fff; padding: 0 20px; margin-bottom: 20px;}
+.pagebar h2 {float: left; font-size: 32px; line-height: 84px;}
 .content {float: left; width: 720px; padding-left: 50px; margin-top: 20px;}
 .content_side {float: right; width: 270px; padding-right: 50px; margin-top: 20px;}
 @-webkit-keyframes fadeOutUp {
@@ -51,6 +53,7 @@
 .contentlist_185x117 li:last-child {border: none;}
 .contentlist_185x117 .pic {width: 185px; height: 117px;}
 .contentlist_185x117 h4 {padding-top: 0;}
+.contentlist_185x117 h4 span {color: #c10000;}
 .contentlist_185x117 p {height: 40px; overflow: hidden;}
 
 .channelbox_list {margin-left: -20px;}
