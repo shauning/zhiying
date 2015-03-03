@@ -176,8 +176,14 @@ a:hover {color:#c10000;transition:all .5s ease-in-out;}
 .imgmod_270x170 .pic {width: 270px; height: 170px;}
 .imgmod_270x170 .imgmod_info {width: 254px;}
 
-.bigpic .imgmod {float: left;}
-.bigpic .imgmod_288x425 li {margin-left: 2px;}
+.bigpic .imgmod {position: relative; width: 3000px;}
+.bigsilde {float: left;}
+.bigsilde_con {position: relative; overflow: hidden;}
+.bigsilde_1, .bigsilde_1 .bigsilde_con {width: 560px;}
+.bigsilde_2, .bigsilde_2 .bigsilde_con {width: 288px;}
+.bigsilde_3, .bigsilde_3 .bigsilde_con {width: 288px;}
+.bigsilde_2, .bigsilde_3 {margin-left: 2px;}
+
 
 .todaymovie {height: 570px; background: #fff; margin-top: 20px;}
 .todaymovie .pic {display: block; height: 380px;}
