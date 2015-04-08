@@ -26,7 +26,7 @@
 .mod_tag a:hover {background: #c10000; color: #fff; border-color: #c10000;}
 .mod_tag_big a {font-size: 14px; line-height: 26px;}
 .mod_info {margin-top: 12px; font-size: 13px; color: #777; line-height: 28px;}
-.mod_info img {float: left; width: 28px; height: 28px;}
+.mod_info img {float: left; width: 28px; height: 28px; border-radius: 50%;}
 .mod_info a {margin:0 5px; color: #555;}
 
 .dybox {float: left; margin: 10px 0 0 0; line-height: 31px;}
