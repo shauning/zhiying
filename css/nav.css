@@ -7,7 +7,7 @@ h1 {display: none;}
 .globelnav .ico_navhover {position: absolute; left: 0; top: 0; width: 0; height: 34px; background-position: 0 -226px; z-index: -1;}
 .globelnav_logo {width: 130px; height: 190px;animation:pop_fadein .5s alternate ease-in-out;-webkit-animation:pop_fadein .5s alternate ease-in-out;-moz-animation:pop_fadein .5s alternate ease-in-out;}
 .globelnav_ul {margin-top: 15px;}
-.globelnav_ul li {position: relative; height: 34px; margin-bottom: 7px; line-height: 34px;}
+.globelnav_ul li {position: relative; >float: left; width: 130px; height: 34px; margin-bottom: 7px; line-height: 34px;}
 .globelnav_ul a {position: relative; display: block; padding-left: 43px; font-size: 16px; color: #000;}
 .globelnav_ul_sec .first {padding: 10px 0; border-top: #dedede solid 1px;border-bottom: #dedede solid 1px;}
 .globelnav_ul a:hover .ico_navhover {width: 130px; transition:all .5s ease-in-out; animation:none;-webkit-animation:none;-moz-animation:none;}

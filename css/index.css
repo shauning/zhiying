@@ -89,7 +89,7 @@ a:hover {color:#c10000;transition:all .5s ease-in-out;}
 .box_side {margin-bottom: 15px;}
 .box_side .box_tt h3 {font-size: 24px; line-height: 40px;}
 .act {float: right; margin-top: 4px;}
-.act_fresh {line-height: 27px;}
+.act_fresh {margin-right: 260px; line-height: 27px;}
 .act_fresh a {position: relative; padding-left: 35px; font-size: 16px; color: #c10000;}
 .act_fresh a:hover .icon {transform: rotate(360deg);-webkit-transform: rotate(360deg);-webkit-transition:all .5s linear;transition:all .5s linear;}
 .act_fresh .icon {width: 27px; height: 27px; background-position: 0 -183px;}
@@ -109,6 +109,7 @@ a:hover {color:#c10000;transition:all .5s ease-in-out;}
 .contentlist_info {margin-top: 12px; font-size: 13px; color: #777; line-height: 28px;}
 .contentlist_info img {float: left; width: 28px; height: 28px; border-radius: 50%}
 .contentlist_info a {margin:0 5px; color: #555;}
+.contentlist_info a:hover {color: #c10000;}
 .contentlist_info span {margin-left: 10px;}
 
 .tagcloud {margin:9px 0 0 -6px;}
@@ -193,7 +194,7 @@ a:hover {color:#c10000;transition:all .5s ease-in-out;}
 .todaymovie_info p {font-size: 14px;}
 .todaymovie_detail {padding: 10px 5px 0 15px; font-size: 14px;}
 
-.g_tip {position: fixed; left: 50%; top: 0; width: 225px; height: 40px; background: #f9fbd4; font-size: 16px; line-height: 40px; border: 4px #333 solid; text-align: center; z-index: 11;}
+.g_tip {position: fixed; left: 50%; top: 0; width: 225px; height: 40px; background: #f9fbd4; font-size: 16px; line-height: 40px; border: 4px #ccc solid; text-align: center; z-index: 11;}
 .g_tip .icon {left: 45px; top: 12px; width: 20px; height: 17px;}
 .icon_suc {background-position: 0 -214px;}
 .icon_false {background-position: 0 -234px;}
