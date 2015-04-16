@@ -19,11 +19,12 @@
 .channelbox_list li {position: relative; float: left; width: 270px; height: 130px; margin: 20px 0 0 20px; overflow: hidden; cursor: pointer;}
 .channelbox_list .link {display: block;}
 .channelbox_list .link img {width: 270px; height: 130px;}
-.channelbox_list .title {position: absolute; left: 80px; top: 40px; font-size: 26px; color: #fff; line-height: 45px; font-weight: normal; border-top: solid #fff 1px; border-bottom: solid #fff 1px;}
-.channelbox_list .pannel {position: absolute; display: block; width: 200px; height: 130px; background: #b70707; padding: 0 35px; font-size: 14px; color: #fff; text-align: center;}
+.channelbox_list .title {position: absolute; left: 80px; top: 40px; font-size: 26px; color: #fff; line-height: 45px; font-weight: normal; border-top: solid #fff 1px; border-bottom: solid #fff 1px; z-index: 3;}
+.channelbox_list .pannel {position: absolute; display: block; width: 200px; height: 130px; background: #b70707; padding: 0 35px; font-size: 14px; color: #fff; text-align: center; z-index: 4;}
 .channelbox_list .pannel em {font-size: 26px; color: #fff; line-height: 46px;}
 .channelbox_list .pannel span {display: block; width: 124px; height: 28px; margin: 5px auto 0; color: #c10000; line-height: 28px; text-indent: 10px;}
 .channelbox_list .pannel span small {margin-left: 5px; font-size: 12px; color: #ccc;}
+.channelbox_list .mask {position: absolute; left: 0; top: 0; width: 270px; height: 130px; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000'); background:rgba(0,0,0,0.6);}
 
 .imgMod {margin-left: -20px;}
 .imgMod li {position: relative; float: left; width: 270px; height: 235px; margin: 20px 0 0 20px; overflow: hidden;}

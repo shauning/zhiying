@@ -114,7 +114,7 @@ a:hover {color:#c10000;transition:all .5s ease-in-out;}
 .contentlist_tag a {display: inline-block; padding: 0 10px; margin:10px 3px 0 0; line-height: 24px; border: solid #e7e7e7 1px;}
 .contentlist_tag a:hover {background: #c10000; color: #fff; border-color: #c10000;}
 .contentlist_info {margin-top: 12px; font-size: 13px; color: #777; line-height: 28px;}
-.contentlist_info img {float: left; width: 28px; height: 28px;}
+.contentlist_info img {float: left; width: 28px; height: 28px; border-radius: 50%;}
 .contentlist_info a {margin:0 5px; color: #555;}
 .contentlist_info span {margin-left: 10px;}
 
@@ -127,6 +127,8 @@ a:hover {color:#c10000;transition:all .5s ease-in-out;}
 .channel strong {display: block; margin-top: 8px; font-size: 15px; color: #555;}
 .channel .btn {position: absolute; right: 8px; top: 17px; width: 46px; line-height: 24px; text-align: center; border: solid #e7e7e7 1px;}
 .channel .btn:hover, .tagcloud a:hover, .morebox a:hover, .content .morebox a:hover {background: #c10000; color: #fff;}
+.channel .btn_done {color: #ccc;}
+.channel .btn_done:hover {background: #fff; color: #ccc; border-color: #e7e7e7;}
 
 .morebox {margin: 20px 0;}
 .morebox a {display: block; background: #fff; font-size: 16px; color: #666; line-height: 45px; text-align: center;}
