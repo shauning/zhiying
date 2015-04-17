@@ -12,8 +12,8 @@ fieldset, img {border:0;}
 label,button {cursor: pointer;}
 select,input,textarea {font-size:12px;line-height:1.2em;outline:none;}
 body {min-width:1300px;height:100%;background:#f0f0f0 url(../images/bg_body.jpg);font:12px/1.8em "Microsoft Yahei","\5b8b\4f53","Arial Narrow";color:#666;}
-a {color:#333;outline:none;text-decoration:none;transition:all .5s ease-in-out;}
-a:hover {color:#c10000;transition:all .5s ease-in-out;}
+a {color:#333;outline:none;text-decoration:none;/*transition:all .5s ease-in-out;*/}
+a:hover {color:#c10000;/*transition:all .5s ease-in-out;*/}
 /*base*/
 .wrapper {width: 1300px; margin: 0 auto;}
 .main {float: right; width: 1140px; margin-top: 20px;}
