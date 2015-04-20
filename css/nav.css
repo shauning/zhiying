@@ -1,7 +1,7 @@
 @charset "utf-8";
 a:hover .ico {animation:navIcoMove .8s 1; -webkit-animation:navIcoMove .8s 1; -moz-animation:navIcoMove .8s 1;}
 .share .ico, .globelsearch input, .globelnav_logo, .globelnav .ico, .ico_navhover, .globelnav_ul .cur {background-image: url(../images/globelnav.png); background-repeat: no-repeat;}
-h1 {display: none;}
+h1 {position: absolute; left: -9999px;}
 .globelnav {position: relative; float: left; width: 130px; z-index: 9;}
 .globelnav .ico {position: absolute; left: 3px; top: 2px; width: 30px; height: 30px;}
 .globelnav .ico_navhover {position: absolute; left: 0; top: 0; width: 0; height: 34px; background-position: 0 -226px; z-index: -1;}
@@ -47,3 +47,28 @@ h1 {display: none;}
 .globelnav_ul_sec .seclink_show {height: auto;}
 .globelnav_ul_sec .seclink_show .seclink_list {height: auto;}
 .globelnav_ul_sec .seclink_show .ico_arrow {-webkit-transform: rotate(-180deg);transform: rotate(-180deg);-webkit-transition:all .2s linear;transition:all .2s linear;}
+
+.minidrop .ico, .mininav_logo a, .mininav_search input {background: url(../images/mininav.png) no-repeat 0 0;}
+.mininav {position: fixed; left: 0; top: 0; width: 100%; background: #cc0010; z-index: 10;}
+.mininav_con {width: 1140px; height: 58px; margin: 0 auto;}
+.mininav_logo {position: relative; float: left; width: 114px; height: 58px;}
+.mininav_logo a {display: block; width: 114px; height: 58px;}
+.mininav_list {float: left; margin-left: 30px;}
+.mininav_list li {float: left;}
+.mininav_list a {display: block; padding: 0 10px; font-size: 16px; color: #fff; line-height: 58px;}
+.mininav_list .cur, .mininav_list a:hover {background: #a9010e; color: #fff;}
+.minidrop {position: relative; float: right; margin-left: 20px; z-index: 9;}
+.minidrop_tt {cursor: pointer; font-size: 14px; color: #fff; line-height: 58px;}
+.minidrop_wx .ico {width: 26px; height: 58px; background-position: -267px 0;}
+.minidrop_con {position: absolute; right: 0; top: 58px; display: none; background: #cc0010;}
+.minidrop_wx .minidrop_con {width: 184px; height: 180px; background: #cc0010; padding-top: 5px; font-size: 13px; color: #fff; text-align: center;}
+.minilogin {float: right; margin-left: 20px; font-size: 14px; color: #fff; line-height: 58px;}
+.minilogin a {color: #fff;}
+.minilogin a:hover {color: #fff; text-decoration: underline;}
+.minidrop_user .minidrop_tt {padding-right: 14px;}
+.minidrop_user .ico {position: absolute; right: 0; top: 27px; width: 9px; height: 5px; background-position: 0 -59px;}
+.minidrop_user .minidrop_con a {display: block; width: 100px; font-size: 14px; color: #fff; line-height: 30px; text-align: center;}
+.minidrop_user .minidrop_con a:hover {background: #f40316;}
+.mininav_search {float: right; width: 151px; height: 32px; margin-top: 14px;}
+.mininav_search input {width: 131px; background-position: -115px -33px; padding: 8px 10px;}
+.mininav_search input:focus, .mininav_search .cur {background-position: -115px 0;}

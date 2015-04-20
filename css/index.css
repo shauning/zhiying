@@ -12,8 +12,8 @@ fieldset, img {border:0;}
 label,button {cursor: pointer;}
 select,input,textarea {font-size:12px;line-height:1.2em;outline:none;}
 body {min-width:1300px;height:100%;background:#f0f0f0 url(../images/bg_body.jpg);font:12px/1.8em "Microsoft Yahei","\5b8b\4f53","Arial Narrow";color:#666;}
-a {color:#333;outline:none;text-decoration:none;transition:all .5s ease-in-out;}
-a:hover {color:#c10000;transition:all .5s ease-in-out;}
+a {color:#333;outline:none;text-decoration:none;transition:all .2s ease-in-out;}
+a:hover {color:#c10000;transition:all .2s ease-in-out;}
 /*base*/
 .wrapper {width: 1300px; margin: 0 auto;}
 .main {float: right; width: 1140px; margin-top: 20px;}
@@ -31,7 +31,7 @@ a:hover {color:#c10000;transition:all .5s ease-in-out;}
 .footer {height: 60px; font-size: 13px; line-height: 60px; text-align: center;}
 .wrapper:after, .box:after, .imgmod:after, .tagcloud:after, .channelbox_list:after, .imgMod:after, .comment_publish:after, .movielist:after, .rankbox_list_img:after, .content_pannel:after, .sitelist:after {content:"";display:table;clear:both}
 .wrapper, .box, .imgmod, .tagcloud, .channelbox_list, .imgMod, .comment_publish, .movielist, .rankbox_list_img, .content_pannel, .sitelist {*zoom:1}
-
+.w1140 .wrapper {width: 1140px; padding-top: 58px;}
 @keyframes navIcoMove
 {
 	0%   {transform: rotate(360deg) scaleX(1) scaleY(1)}
@@ -71,6 +71,7 @@ a:hover {color:#c10000;transition:all .5s ease-in-out;}
 	80%  {transform:translateY(-2px);}
 	100% {transform:translateY(0);}
 }
+.pop_fadein {display: block; animation:pop_fadein .5s alternate ease-in-out;-webkit-animation:pop_fadein .5s alternate ease-in-out;-moz-animation:pop_fadein .5s alternate ease-in-out;}
 /*share*/
 .share a {float: left; display: block; height: 30px; margin:5px 0 0 2px; overflow: hidden;}
 .share .ico {position: static !important; width: 30px; height: 30px;}
