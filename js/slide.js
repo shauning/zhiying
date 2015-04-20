@@ -67,7 +67,7 @@
                 if(_self.options.isAnimate){
                     _self._animateEvents();
                 }
-				console.log(_self.current);
+				// console.log(_self.current);
                 event.preventDefault();
                 return false;
             });
@@ -102,7 +102,7 @@
                  _self.$el.stop().animate({ "left": -1*_self.$move
                  }, _self.options.animateTime,function(){
                      var temp = _self.$s_li[_self.current];
-                     console.log(_self.current);
+                     // console.log(_self.current);
                      _self.current++;
                      if(_self.current==_self.$s_len){
                          _self.current = 0;
