@@ -32,6 +32,7 @@ a:hover {color:#c10000;transition:all .2s ease-in-out;}
 .wrapper:after, .box:after, .imgmod:after, .tagcloud:after, .channelbox_list:after, .imgMod:after, .comment_publish:after, .movielist:after, .rankbox_list_img:after, .content_pannel:after, .sitelist:after {content:"";display:table;clear:both}
 .wrapper, .box, .imgmod, .tagcloud, .channelbox_list, .imgMod, .comment_publish, .movielist, .rankbox_list_img, .content_pannel, .sitelist {*zoom:1}
 .w1140 .wrapper {width: 1140px; padding-top: 58px;}
+.w1140 body {min-width: 1140px;}
 @keyframes navIcoMove
 {
 	0%   {transform: rotate(360deg) scaleX(1) scaleY(1)}
@@ -105,7 +106,7 @@ a:hover {color:#c10000;transition:all .2s ease-in-out;}
 .contentlist .pic:hover {background: #c10000;}
 .contentlist h4 {height: 24px; padding-top: 12px; font-size: 20px; line-height: 22px; font-weight: bold; overflow: hidden;}
 .contentlist p {margin-top: 10px; font-size: 14px;}
-.contentlist_tag a {display: inline-block; padding: 0 10px; margin:10px 3px 0 0; line-height: 24px; border: solid #e7e7e7 1px;}
+.contentlist_tag a {display: inline-block; background: #eee; padding: 0 10px; margin:10px 3px 0 0; line-height: 24px; border: solid #e7e7e7 1px;}
 .contentlist_tag a:hover {background: #c10000; color: #fff; border-color: #c10000;}
 .contentlist_info {margin-top: 12px; font-size: 13px; color: #777; line-height: 28px;}
 .contentlist_info img {float: left; width: 28px; height: 28px; border-radius: 50%}

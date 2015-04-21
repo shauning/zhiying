@@ -1,5 +1,5 @@
 @charset "utf-8";
-a:hover .ico {animation:navIcoMove .8s 1; -webkit-animation:navIcoMove .8s 1; -moz-animation:navIcoMove .8s 1;}
+/*a:hover .ico {animation:navIcoMove .8s 1; -webkit-animation:navIcoMove .8s 1; -moz-animation:navIcoMove .8s 1;}*/
 .share .ico, .globelsearch input, .globelnav_logo, .globelnav .ico, .ico_navhover, .globelnav_ul .cur {background-image: url(../images/globelnav.png); background-repeat: no-repeat;}
 h1 {position: absolute; left: -9999px;}
 .globelnav {position: relative; float: left; width: 130px; z-index: 9;}

@@ -31,6 +31,7 @@ a:hover {color:#c10000;/*transition:all .5s ease-in-out;*/}
 .wrapper:after, .box:after, .imgmod:after, .tagcloud:after, .channelbox_list:after, .imgMod:after, .comment_publish:after, .movielist:after, .rankbox_list_img:after, .content_pannel:after, .sitelist:after, .loginbox_con:after {content:"";display:table;clear:both}
 .wrapper, .box, .imgmod, .tagcloud, .channelbox_list, .imgMod, .comment_publish, .movielist, .rankbox_list_img, .content_pannel, .sitelist, .loginbox_con {*zoom:1}
 .w1140 .wrapper {width: 1140px; padding-top: 58px;}
+.w1140 body {min-width: 1140px;}
 @keyframes navIcoMove
 {
 	0%   {transform: rotate(360deg) scaleX(1) scaleY(1)}

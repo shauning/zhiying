@@ -10,13 +10,21 @@
 <script src="js/htmlfive.js"></script>
 <![endif]-->
 <script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/scroll-up-bar.min.js"></script>
 <link rel="stylesheet" type="text/css" href="css/nav.css">
 <link rel="stylesheet" type="text/css" href="css/index.css">
 <script type="text/javascript">
 	$(function () {
-		$('.seclink_tigger').click(
-			function() {
-				$('.seclink_li').toggleClass('seclink_show');}
+		if ($(window).width() <= 1280) {
+			$('.globelnav').hide();
+			$('body').addClass('w1140');
+			$('.mininav').scrollupbar();
+		}else{
+			$('.mininav').hide();
+		};
+		
+		$('.seclink_tigger').click(function() {
+			$('.seclink_li').toggleClass('seclink_show');}
 		);
 		$('.minidrop').mouseenter(function() {
 			$(this).find('.minidrop_con').addClass('pop_fadein');
@@ -24,26 +32,10 @@
 		$('.minidrop').mouseleave(function() {
 			$(this).find('.minidrop_con').removeClass('pop_fadein')
 		});
-		$(window).scroll(function() {
-			var p = 0, t = 0;
-			$(window).scroll(function() {
-				p = $(this).scrollTop();
-				if (t <= p) {
-					$('.mininav').animate({top: '-60px'});
-				}
-				else{
-					$('.mininav').animate({top: '0'});
-				};
-				setTimeout(function(){t = p;},0);
-			});
-			// if ($(window).scrollTop() > 100) {
-			// 	$('.mininav').fadeOut('100');
-			// };
-		});
 	});
 </script>
 </head>
-<body class="w1140">
+<body>
 <div class="mininav">
 	<div class="mininav_con">
 		<div class="mininav_logo">
@@ -73,6 +65,56 @@
 	</div>
 </div><!-- mininav -->
 <section class="wrapper">
+	<aside class="globelnav">
+		<div class="globelnav_logo">
+			<h1>指影 - zhiying.me</h1>
+			<a href="index.html"></a>
+		</div>
+		<nav class="globelnav_ul globelnav_ul_first">
+			<ul>
+				<li><a href="" class="cur"><i class="ico ico_nav ico_nav1"></i>首页<i class="ico ico_navhover"></i></a></li>
+				<li>
+					<a href=""><i class="ico ico_nav ico_nav2"></i>趣影解读<i class="ico ico_navhover"></i></a>
+					<div class="globelnav_drop">
+						<a href="#">新片速递</a>
+						<a href="#">新片速递</a>
+						<a href="#">新片速递</a>
+						<a href="#">新片速递</a>
+						<a href="#">新片速递</a>
+						<a href="#">新片速递</a>
+						<a href="#">新片速递</a>
+						<a href="#">新片速递</a>
+						<a href="#">新片速递</a>
+						<a href="#">新片速递</a>
+					</div>
+				</li>
+				<li><a href=""><i class="ico ico_nav ico_nav3"></i>权威榜单<i class="ico ico_navhover"></i></a></li>
+				<li><a href=""><i class="ico ico_nav ico_nav4"></i>名人指影<i class="ico ico_navhover"></i></a></li>
+				<li><a href=""><i class="ico ico_nav ico_nav5"></i>主题策划<i class="ico ico_navhover"></i></a></li>
+				<li><a href=""><i class="ico ico_nav ico_nav6"></i>名站导航<i class="ico ico_navhover"></i></a></li>
+			</ul>
+		</nav>
+		<nav class="globelnav_ul globelnav_ul_sec">
+			<ul>
+				<li class="first seclink_li">
+					<a href="###" class="seclink_tigger"><i class="ico ico_nav ico_nav7"></i>一二三四五<i class="ico ico_arrow"></i></a>
+					<div class="seclink_list">
+						<a href="#">个人中心</a>
+						<a href="#">个人中心</a>
+						<a href="#">个人中心</a>
+					</div>
+				</li>
+				<li><a href=""><i class="ico ico_nav ico_nav8"></i>我要投稿<i class="ico ico_navhover"></i></a></li>
+				<li><a href=""><i class="ico ico_nav ico_nav9"></i>媒体平台<i class="ico ico_navhover"></i></a></li>
+				<li><a href=""><i class="ico ico_nav ico_nav10"></i>关于我们<i class="ico ico_navhover"></i></a></li>
+			</ul>
+		</nav>
+		<div class="globelsearch"><input type="text" /></div>
+		<p class="globelslogan">我指影 就是你的指引</p>
+		<div class="globelcode"><p>扫描二维码关注指影</p><p>微信公众号<em>i-movies</em></p><img src="images/globelcode.png" alt="微信二维码"></div>
+		<div class="share navIcoFlip"><a href=""><i class="ico ico_wb">分享到微博</i></a><a href=""><i class="ico ico_wx">分享到微信</i></a><a href=""><i class="ico ico_qzone">分享到qzone</i></a><a href=""><i class="ico ico_tqq">分享到腾讯微博</i></a></div>
+	</aside><!--左侧全局导航-->
+
 	<div class="main">
 		<h2 class="fn_hide">首页</h2>
 		<div class="box bigpic">

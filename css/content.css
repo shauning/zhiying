@@ -54,7 +54,7 @@
 
 .article {margin-bottom: 20px; animation:article_up .5s alternate ease-in-out;-webkit-animation:article_up .5s alternate ease-in-out;}
 .article_img {margin-bottom: 30px;}
-.article p {margin-bottom: 30px; font-size: 16px; color: #333; line-height: 30px; text-indent: 2em;}
+.article p {margin-bottom: 30px; font-size: 16px; color: #333; line-height: 30px;}
 .article p strong {font-size: 20px;}
 
 .contentlist_185x117 li {height: 117px; padding-bottom: 19px; border-bottom: 1px #e9e9e9 solid;}
