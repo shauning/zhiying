@@ -200,3 +200,7 @@ a:hover {color:#c10000;transition:all .2s ease-in-out;}
 .g_tip .icon {left: 45px; top: 12px; width: 20px; height: 17px;}
 .icon_suc {background-position: 0 -214px;}
 .icon_false {background-position: 0 -234px;}
+
+/*floatpannel*/
+.floatpannel {position:fixed;_position:absolute;right:10px;bottom:10px;z-index:999;}
+.floatpannel a {display:block;width:50px;height:50px;background:url(../images/floatpannel.png);margin-top:10px;text-indent:-9999px;overflow:hidden;}

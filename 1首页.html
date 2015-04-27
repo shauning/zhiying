@@ -18,6 +18,26 @@
 			function() {
 				$('.seclink_li').toggleClass('seclink_show');}
 		);
+
+		//返回顶部
+		$(window).bind("scroll",function(){
+
+			//如果滚动超过500，显示回到顶部按钮
+			var st = $(document).scrollTop(), winh = $(window).height();
+	        if(st > 500){
+	        	$("#goTop").show()
+	    	} else {
+	    		$("#goTop").hide()
+	    	}
+
+	        if (!window.XMLHttpRequest) {
+	            //$("#goTop").css("top", st + winh - 166);   
+	        }
+		})
+
+		$("#goTop").click(function() {
+	        $("html, body").animate({scrollTop: 0}, 200);
+	    });
 	});
 </script>
 </head>
@@ -414,6 +434,10 @@
 	</div><!--main 内容区域-->
 </section><!--wrapper-->
 <footer class="footer">深圳市指影科技有限公司 版权所有 Copyright © 2014 沪ICP备14040942号</footer>
+
+<div class="floatpannel">
+	<a href="javascript:void(0)" target="_self" title="返回顶部" style="display:none;" class="floatpannel_top" id="goTop">返回顶部</a>
+</div>
 
 <div class="g_tip">
 	<i class="icon icon_suc"></i>订阅成功

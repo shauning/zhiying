@@ -165,3 +165,6 @@ a:hover {color:#c10000;/*transition:all .5s ease-in-out;*/}
 .loginbox_more p {height: 29px; font-size: 13px;}
 .loginbox_more .btn {display: block; width: 161px; height: 40px; margin-bottom: 10px; font-size: 14px; color: #fff; line-height: 40px; text-indent: 52px;}
 
+/*floatpannel*/
+.floatpannel {position:fixed;_position:absolute;right:10px;bottom:10px;z-index:999;}
+.floatpannel a {display:block;width:50px;height:50px;background:url(../images/floatpannel.png);margin-top:10px;text-indent:-9999px;overflow:hidden;}
