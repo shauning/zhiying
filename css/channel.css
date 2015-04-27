@@ -44,7 +44,7 @@
 .imgMod_nor li, .imgMod_nor .pic {height: 260px;}
 .imgMod_nor .imgMod_info h4 {height: 46px; line-height: 24px;}
 .imgMod_nor .pic:hover {background: #c10000;}
-.imgMod_nor .pic:hover h4 a {color: #fff;}
+.imgMod_nor .pic:hover h4 a, .imgMod_nor .pic:hover .imgMod_info h4, .imgMod_nor .pic:hover .imgMod_info p em {color: #fff;}
 .imgMod_nor .pic:hover .imgMod_info p, .imgMod_nor .pic:hover .imgMod_info p a {color: #ffd5d5;}
 
 .tabbox {height: 36px; margin-top: 20px; line-height: 36px;}

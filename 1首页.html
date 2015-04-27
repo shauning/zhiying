@@ -100,7 +100,7 @@
 					<ul class="imgmod imgmod_typeA imgmod_560x425">
 						<li>
 							<a href="" class="pic">
-								<img src="http://placehold.it/560x425" alt="文字">
+								<img src="http://placehold.it/850x425" alt="文字">
 								<div class="imgmod_info">
 									<span><i class="icon icon_new"></i>新片速递</span>
 									<h3>2015年不容错过的12部大片这里的文字有点多哦文字有点多哦</h3>
@@ -111,7 +111,7 @@
 						</li>
 						<li>
 							<a href="" class="pic">
-								<img src="http://placehold.it/560x425" alt="文字">
+								<img src="http://placehold.it/850x425" alt="文字">
 								<div class="imgmod_info">
 									<span><i class="icon icon_new"></i>新片速递</span>
 									<h3>2015年不容错过的12部大片这里的文字有点多哦文字有点多哦</h3>
@@ -122,7 +122,7 @@
 						</li>
 						<li>
 							<a href="" class="pic">
-								<img src="http://placehold.it/560x425" alt="文字">
+								<img src="http://placehold.it/850x425" alt="文字">
 								<div class="imgmod_info">
 									<span><i class="icon icon_new"></i>新片速递</span>
 									<h3>2015年不容错过的12部大片这里的文字有点多哦文字有点多哦</h3>
@@ -132,10 +132,13 @@
 							</a>
 						</li>
 					</ul>
+					<ul class="pic_list"><li></li><li></li><li></li></ul>
+					<a href="#" class="ico_prev">上一页</a>
+					<a href="#" class="ico_next">下一页</a>
 				</div>
 			</div>
 
-			<div class="bigsilde bigsilde_2" id="bigSilde_2">
+			<div class="bigsilde bigsilde_2">
 				<div class="bigsilde_con">
 					<ul class="imgmod imgmod_typeA imgmod_288x425">
 						<li>
@@ -149,33 +152,11 @@
 								<span class="imgmod_mask"></span>
 							</a>
 						</li>
-						<li>
-							<a href="" class="pic">
-								<img src="http://placehold.it/288x425" alt="文字">
-								<div class="imgmod_info">
-									<span><i class="icon icon_rank"></i>人物榜单</span>
-									<h3>2015年不容错过的12部大片这里的文字有点多哦文字有点多哦</h3>
-									<p><em>电影集中营</em>2小时前</p>
-								</div>
-								<span class="imgmod_mask"></span>
-							</a>
-						</li>
-						<li>
-							<a href="" class="pic">
-								<img src="http://placehold.it/288x425" alt="文字">
-								<div class="imgmod_info">
-									<span><i class="icon icon_rank"></i>人物榜单</span>
-									<h3>2015年不容错过的12部大片这里的文字有点多哦文字有点多哦</h3>
-									<p><em>电影集中营</em>2小时前</p>
-								</div>
-								<span class="imgmod_mask"></span>
-							</a>
-						</li>
 					</ul>
 				</div>
 			</div>
 
-			<div class="bigsilde bigsilde_3" id="bigSilde_3">
+			<!-- <div class="bigsilde bigsilde_3">
 				<div class="bigsilde_con">
 					<ul class="imgmod imgmod_typeA imgmod_288x425">
 						<li>
@@ -189,31 +170,9 @@
 								<span class="imgmod_mask"></span>
 							</a>
 						</li>
-						<li>
-							<a href="" class="pic">
-								<img src="http://placehold.it/288x425" alt="文字">
-								<div class="imgmod_info">
-									<span><i class="icon icon_rank"></i>人物榜单</span>
-									<h3>2015年不容错过的12部大片这里的文字有点多哦文字有点多哦</h3>
-									<p><em>电影集中营</em>2小时前</p>
-								</div>
-								<span class="imgmod_mask"></span>
-							</a>
-						</li>
-						<li>
-							<a href="" class="pic">
-								<img src="http://placehold.it/288x425" alt="文字">
-								<div class="imgmod_info">
-									<span><i class="icon icon_rank"></i>人物榜单</span>
-									<h3>2015年不容错过的12部大片这里的文字有点多哦文字有点多哦</h3>
-									<p><em>电影集中营</em>2小时前</p>
-								</div>
-								<span class="imgmod_mask"></span>
-							</a>
-						</li>
 					</ul>
 				</div>
-			</div>
+			</div> -->
 		</div><!-- bigpic -->
 		<div class="box">
 			<div class="box_tt"><h3>热门指影</h3></div>
@@ -442,11 +401,79 @@
 <div class="g_tip">
 	<i class="icon icon_suc"></i>订阅成功
 </div>
-<script src="js/slide.js"></script>
-<script type="text/javascript">   
-	$("#bigSilde_1").slide();
-	$("#bigSilde_2").slide({animateTime: 800});
-	$("#bigSilde_3").slide({animateTime: 1200});
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		autoshow('.bigsilde_1 .imgmod','.bigsilde_1 .pic_list','.bigsilde_1 .ico_prev','.bigsilde_1 .ico_next');
+	})
+	//传入图片ul，nav UL,pre（可空），next（可空）
+	function autoshow(show_pic,show_list,pre,next){
+		//自动轮播
+		var time = "";
+		var config ={
+			//是否自动切换
+			autoSwitch : true,
+			//自动切换间隔时间（毫秒）
+			interval : 5000
+		}
+		var pic_li = show_pic+' li';
+		var list_li = show_list+' li';
+		//初始化当前状态 cur
+        $(pic_li+':first,'+list_li+':first').addClass('cur');
+		function showFouce(num){
+			$(pic_li+','+list_li).removeClass("cur");
+			$(list_li).eq(num).addClass("cur");
+			$(pic_li).eq(num).siblings().stop(false,true).fadeOut("slow");
+			$(pic_li).eq(num).stop(false,true).fadeIn("slow");
+		}
+		//鼠标悬停时，停止切换
+		var goSwitch = true;
+		$(list_li).hover(function(){
+			goSwitch = false;
+			var thisIndex=$(this).index();
+			showFouce(thisIndex);
+		},function(){
+			goSwitch = true;
+		});
+		$(pic_li).hover(function(){
+			goSwitch = false;
+		},function(){
+			goSwitch = true;
+		});
+		//按键切换
+		if(pre != ''||next != ''){
+			//鼠标悬停时，停止切换
+			$(pre+','+next).hover(function(){
+				goSwitch = false;
+			},function(){
+				goSwitch = true;
+			});
+			$(pre).click(function(){
+				var thisIndex=$(show_list+' .cur').index();
+				showFouce(thisIndex-1);
+			});
+			$(next).click(function(){
+				var thisIndex=$(show_list+' .cur').index();
+				if (thisIndex > ($(pic_li).length-2)) {
+					 thisIndex = -1;
+				 }
+				showFouce(thisIndex+1)
+			});
+		}
+		 //自动切换
+		if (config.autoSwitch) {
+			 setInterval(function() {
+				 if (goSwitch) {
+					 //判断当前cur所在的索引值
+					var index = parseInt($(show_list+' .cur').index());
+					 if (index > ($(pic_li).length-2)) {
+						 index = -1;
+					 }
+					showFouce(index+1);//自动切换到下一个
+				 }
+			 }, config.interval);
+		 }
+	}
 </script>
 </body>
 </html>
