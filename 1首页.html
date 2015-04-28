@@ -53,7 +53,7 @@
 				<li><a href="" class="cur"><i class="ico ico_nav ico_nav1"></i>首页<i class="ico ico_navhover"></i></a></li>
 				<li>
 					<a href=""><i class="ico ico_nav ico_nav2"></i>趣影解读<i class="ico ico_navhover"></i></a>
-					<div class="globelnav_drop globelnav_drop_col1">
+<!-- 					<div class="globelnav_drop globelnav_drop_col1">
 						<a href="#">新片速递</a>
 						<a href="#">新片速递</a>
 						<a href="#">新片速递</a>
@@ -64,7 +64,7 @@
 						<a href="#">新片速递</a>
 						<a href="#">新片速递</a>
 						<a href="#">新片速递</a>
-					</div>
+					</div> -->
 				</li>
 				<li><a href=""><i class="ico ico_nav ico_nav3"></i>权威榜单<i class="ico ico_navhover"></i></a></li>
 				<li><a href=""><i class="ico ico_nav ico_nav4"></i>名人指影<i class="ico ico_navhover"></i></a></li>
@@ -100,7 +100,7 @@
 					<ul class="imgmod imgmod_typeA imgmod_560x425">
 						<li>
 							<a href="" class="pic">
-								<img src="http://placehold.it/850x425" alt="文字">
+								<img src="img_1.jpg" alt="文字">
 								<div class="imgmod_info">
 									<span><i class="icon icon_new"></i>新片速递</span>
 									<h3>2015年不容错过的12部大片这里的文字有点多哦文字有点多哦</h3>
@@ -111,7 +111,7 @@
 						</li>
 						<li>
 							<a href="" class="pic">
-								<img src="http://placehold.it/850x425" alt="文字">
+								<img src="img_2.jpg" alt="文字">
 								<div class="imgmod_info">
 									<span><i class="icon icon_new"></i>新片速递</span>
 									<h3>2015年不容错过的12部大片这里的文字有点多哦文字有点多哦</h3>
@@ -122,7 +122,7 @@
 						</li>
 						<li>
 							<a href="" class="pic">
-								<img src="http://placehold.it/850x425" alt="文字">
+								<img src="img_3.jpg" alt="文字">
 								<div class="imgmod_info">
 									<span><i class="icon icon_new"></i>新片速递</span>
 									<h3>2015年不容错过的12部大片这里的文字有点多哦文字有点多哦</h3>
@@ -132,7 +132,7 @@
 							</a>
 						</li>
 					</ul>
-					<ul class="pic_list"><li></li><li></li><li></li></ul>
+					<ul class="pic_list"><li>1</li><li>2</li><li>3</li></ul>
 					<a href="#" class="ico_prev">上一页</a>
 					<a href="#" class="ico_next">下一页</a>
 				</div>
@@ -423,8 +423,8 @@
 		function showFouce(num){
 			$(pic_li+','+list_li).removeClass("cur");
 			$(list_li).eq(num).addClass("cur");
-			$(pic_li).eq(num).siblings().stop(false,true).fadeOut("slow");
-			$(pic_li).eq(num).stop(false,true).fadeIn("slow");
+			$(pic_li).eq(num).siblings().stop(false,true).fadeOut("2000");
+			$(pic_li).eq(num).stop(false,true).fadeIn("2000");
 		}
 		//鼠标悬停时，停止切换
 		var goSwitch = true;

@@ -186,11 +186,15 @@ a:hover {color:#c10000;transition:all .2s ease-in-out;}
 .bigsilde_2, .bigsilde_2 .bigsilde_con {width: 288px;}
 .bigsilde_3, .bigsilde_3 .bigsilde_con {width: 288px;}
 .bigsilde_2, .bigsilde_3 {margin-left: 2px;}
-.ico_prev, .ico_next {position: absolute; top: 120px; display: none; width: 50px; height: 60px; background: #000; text-indent: -9999px;}
+.ico_prev, .ico_next {position: absolute; top: 130px; display: none; width: 48px; height: 70px; background: url(../images/scrollbtn.png); text-indent: -9999px;}
 .ico_prev {left: 0;}
-.ico_next {right: 0;}
+.ico_prev:hover {background-position: 0 -71px;}
+.ico_next {right: 0; background-position: -49px 0}
+.ico_next:hover {background-position: -49px -71px;}
 .bigsilde_con:hover .ico_prev, .bigsilde_con:hover .ico_next {display: block;}
-.pic_list {position: absolute; left: -9999px;}
+.pic_list {position: absolute; right: 5px; bottom: 75px; z-index: 2;}
+.pic_list li {float: left; width: 12px; height: 12px; background: #ccc; margin-right: 5px; text-indent: -9999px; overflow: hidden; border-radius: 50%; cursor: pointer;}
+.pic_list .cur {background: #fff;}
 
 .todaymovie {height: 570px; background: #fff; margin-top: 20px;}
 .todaymovie .pic {display: block; height: 380px;}
