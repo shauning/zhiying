@@ -74,3 +74,26 @@ h1 {position: absolute; left: -9999px;}
 .mininav_search {float: right; width: 151px; height: 32px; margin-top: 14px;}
 .mininav_search input {width: 131px; background-position: -115px -33px; padding: 8px 10px;}
 .mininav_search input:focus, .mininav_search .cur {background-position: -115px 0;}
+
+@keyframes pop_fadein
+{
+	0%   {opacity:0;transform:translateY(-50px);}
+	50%  {opacity:1;transform:translateY(4px);}
+	80%  {transform:translateY(-2px);}
+	100% {transform:translateY(0);}
+}
+@-webkit-keyframes pop_fadein
+{
+	0%   {opacity:0;transform:translateY(-50px);}
+	50%  {opacity:1;transform:translateY(4px);}
+	80%  {transform:translateY(-2px);}
+	100% {transform:translateY(0);}
+}
+@-moz-keyframes pop_fadein
+{
+	0%   {opacity:0;transform:translateY(-50px);}
+	50%  {opacity:1;transform:translateY(4px);}
+	80%  {transform:translateY(-2px);}
+	100% {transform:translateY(0);}
+}
+.pop_fadein {display: block; animation:pop_fadein .5s alternate ease-in-out;-webkit-animation:pop_fadein .5s alternate ease-in-out;-moz-animation:pop_fadein .5s alternate ease-in-out;}
