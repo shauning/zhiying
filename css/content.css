@@ -162,7 +162,7 @@
 .rankbox_list li {height: 230px; margin-top: 20px;}
 .rankbox_list .num {position: absolute; left: 0; top: 0; width: 44px; background: #b50b0b; font-size: 20px; color: #fff; line-height: 35px; text-align: center; z-index: 2;}
 .rankbox_list_img {margin-left: -20px;}
-.rankbox_list_img li {float: left; width: 165px; margin: 20px 0 0 20px;}
+.rankbox_list_img li {float: left; width: 165px; height: 250px; margin: 20px 0 0 20px; overflow: hidden;}
 .rankbox_list_img img {display: block; width: 165px; height: 230px;}
 .rankbox_list_img a {display: block; font-size: 16px;}
 .rankbox_list_img em {margin: 5px; font-size: 18px; color: #d60f00;}
