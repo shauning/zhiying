@@ -82,7 +82,7 @@
 .blocklist a:hover {background: #c10000; color: #fff;}
 .txtlist {line-height: 26px;}
 
-.imgMod li {height: 35px; background: #f4f4f4; margin-top: 6px; font-size: 15px; line-height: 35px; text-indent: 10px;}
+.imgMod li {height: 35px; background: #f4f4f4; margin-top: 6px; font-size: 15px; line-height: 35px; text-indent: 10px; overflow: hidden;}
 .imgMod .show {position: relative; width: 270px; height: 235px; margin: 20px 0 0 0; overflow: hidden; text-indent: 0;}
 .imgMod .pic {height: 235px; background: #f4f4f4;}
 .imgMod img {width: 270px; height: 170px;}
