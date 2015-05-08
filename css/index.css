@@ -182,7 +182,7 @@ a:hover {color:#c10000;transition:all .2s ease-in-out;}
 .bigpic .imgmod {position: relative; width: 3000px;}
 .bigsilde {float: left;}
 .bigsilde_con {position: relative; overflow: hidden;}
-.bigsilde_1, .bigsilde_1 .bigsilde_con {width: 850px;}
+.bigsilde_1, .bigsilde_1 .bigsilde_con {width: 850px; background: #000;}
 .bigsilde_2, .bigsilde_2 .bigsilde_con {width: 288px;}
 .bigsilde_3, .bigsilde_3 .bigsilde_con {width: 288px;}
 .bigsilde_2, .bigsilde_3 {margin-left: 2px;}

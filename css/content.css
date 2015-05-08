@@ -169,6 +169,7 @@
 
 .staruser {position: relative; height: 190px; padding:20px 320px 0 200px; margin: 0 50px; font-size: 14px; border-bottom: 2px #ececec solid;}
 .staruser .face {position: absolute; left: 0; top: 20px;}
+.staruser .face img {border-radius: 50%;}
 .staruser h2 {font-size: 30px; line-height: 40px;}
 .staruser_title {position: relative; height: 30px; font-size: 15px; line-height: 30px;}
 .staruser_title .ico {float: left; width: 20px; height: 30px; background: url(../images/ico_v.png); margin-right: 10px;}
