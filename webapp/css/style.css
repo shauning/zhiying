@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* @author ------- weibo.com/shauning
+ * @design ------- vinha
+ * @time   ------- 2015-05-12*/
+/*reset*/
+html {overflow-y: scroll}
+html, body {background: #efefef; font:20px/1.5 "Helvetica Neue", Helvetica, STHeiTi, sans-serif; color:#666; -webkit-tap-highlight-color:rgba(0,0,0,0);}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}
+fieldset,img { border:0; }
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:500; }
+ol,ul { list-style:none; }
+table { border-collapse:collapse; border-spacing:0; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 { font-size:100%; color: #000; font-weight:500; }
+abbr,acronym { border:0; }
+del{text-decoration:line-through}
+input, select, textarea{font-size:100%; -webkit-appearance:none;}
+textarea{resize:none;}
+q:before,q:after{content:''}
+ins,a{ color: #333; text-decoration:none;}
+
+.header {height: 40px; background: #ce0000;}
+.logo {float: left; width: 173px;}
+.logo a {display: block; height: 40px; background: url(../images/logo.png) no-repeat center center; text-indent: -9999px;background-size: 173px 40px;}
+.nav {height: 28px; background: #fff;}
+.nav a {float: left; display: block; width: 16.66%; font-size: 0.7rem; line-height: 28px; text-align: center;}
+.nav .cur {font-weight: bold; border-bottom: 3px #ce0000 solid;}
