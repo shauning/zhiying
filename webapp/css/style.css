@@ -19,9 +19,18 @@ textarea{resize:none;}
 q:before,q:after{content:''}
 ins,a{ color: #333; text-decoration:none;}
 
-.header {height: 40px; background: #ce0000;}
+.header {height: 40px; background: #ce0000; padding: 0 0.5rem;}
 .logo {float: left; width: 173px;}
 .logo a {display: block; height: 40px; background: url(../images/logo.png) no-repeat center center; text-indent: -9999px;background-size: 173px 40px;}
-.nav {height: 28px; background: #fff;}
-.nav a {float: left; display: block; width: 16.66%; font-size: 0.7rem; line-height: 28px; text-align: center;}
-.nav .cur {font-weight: bold; border-bottom: 3px #ce0000 solid;}
+.nav {height: 30px; background: #fff; padding: 0 0.5rem;}
+.nav a {float: left; display: block; width: 16.66%; height: 30px; font-size: 0.8rem; line-height: 30px; text-align: center; overflow: hidden;}
+.nav .cur {height: 27px; font-weight: bold; border-bottom: 3px #ce0000 solid;}
+
+.wrapper {padding:0 0.5rem;}
+.contentbox {width: 100%; margin-top: 0.5rem;}
+.contentbox a {display: block; background: #fff; padding: 0 0 0.25rem;}
+.contentbox h2 {padding: 0 0.5rem; font-size: 0.8rem; font-weight: bold;}
+.contentbox div {padding: 0 0.5rem; font-size: 0.7rem; line-height: 30px;}
+.contentbox .avatar {float: left; display: block; width: 30px; margin-right: 5px; border-radius: 50%;}
+.contentbox_img {display: block; width: 100%; height: 100%; margin-bottom: 0.35rem;}
+.morebtn {display: block; height: 53px; background: #fff; margin-top: 0.5rem; font-size: 0.8rem; line-height: 53px; text-align: center;}
