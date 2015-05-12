@@ -51,7 +51,7 @@ h1 {position: absolute; left: -9999px;}
 .globelnav_ul_sec .seclink_show .ico_arrow {-webkit-transform: rotate(-180deg);transform: rotate(-180deg);-webkit-transition:all .2s linear;transition:all .2s linear;}
 
 .minidrop .ico, .mininav_logo a, .mininav_search input {background: url(../images/mininav.png) no-repeat 0 0;}
-.mininav {position: fixed; left: 0; top: 0; width: 100%; background: #cc0010; z-index: 10;}
+.mininav {position: fixed; left: 0; top: 0; display: none; width: 100%; background: #cc0010; z-index: 10;}
 .mininav_con {width: 1140px; height: 58px; margin: 0 auto;}
 .mininav_logo {position: relative; float: left; width: 114px; height: 58px;}
 .mininav_logo a {display: block; width: 114px; height: 58px;}
@@ -74,6 +74,8 @@ h1 {position: absolute; left: -9999px;}
 .mininav_search {float: right; width: 151px; height: 32px; margin-top: 14px;}
 .mininav_search input {width: 131px; background-position: -115px -33px; padding: 8px 10px;}
 .mininav_search input:focus, .mininav_search .cur {background-position: -115px 0;}
+.w1140 .globelnav {display: none;}
+.w1140 .mininav {display: block;}
 
 @keyframes pop_fadein
 {

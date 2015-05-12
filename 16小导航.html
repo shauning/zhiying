@@ -15,10 +15,11 @@
 <script type="text/javascript">
 	$(function () {
 		if ($(window).width() <= 1280) {
-			$('.globelnav').hide();
+			// $('.globelnav').hide();
 			$('body').addClass('w1140');
 		}else{
-			$('.mininav').hide();
+			// $('.mininav').hide();
+			$('body').removeClass('w1140');
 		};
 
 		var timer=0,last=0;
