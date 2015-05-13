@@ -20,14 +20,15 @@ q:before,q:after{content:''}
 ins,a{ color: #333; text-decoration:none;}
 
 .ico, .channel {background: url(../images/sprite.png) no-repeat 0 0;}
-.header {height: 45px; background: #ce0000; padding: 0 0.5rem;}
+.header {position: relative; height: 45px; background: #ce0000; padding: 0 0.5rem;}
 .logo {float: left; width: 233px;}
 .logo a {display: block; height: 45px; background: url(../images/logo.png) no-repeat center center; text-indent: -9999px;background-size: 233px 45px;}
-.channel {float: right; display: block; width: 25px; height: 25px; background-position: -30px 0; background-size: 55px 60px; margin-top: 10px; text-indent: -9999px;}
+.channel {position: absolute; right: 0.5rem; top: 10px; display: block; width: 25px; height: 25px; background-position: -30px 0; background-size: 55px 60px; text-indent: -9999px;}
 .nav {height: 30px; background: #fff; padding: 0 0.5rem;}
 .nav li {float: left; width: 16.66%; height: 30px; font-size: 0.8rem; line-height: 30px; overflow: hidden;}
 .nav a {display: inline-block;}
 .nav .cur {height: 27px; font-weight: bold; border-bottom: 3px #ce0000 solid;}
+.nav_5 li {width: 20%;}
 
 .wrapper {padding:0 0.5rem;}
 .contentbox {width: 100%; margin-top: 0.5rem;}
@@ -50,9 +51,11 @@ ins,a{ color: #333; text-decoration:none;}
 .content_title {margin: 0.5rem 0;}
 .content_title h2 {font-size: 1rem; font-weight: bold;}
 .mod_info {height: 30px; margin-top: 0.5rem; font-size: 0.7rem; line-height: 30px; overflow: hidden;}
-.article {font-size: 0.8rem; color: #333;}
+.article {font-size: 0.9rem; color: #333;}
 .article img {width: 100%; height: 100%;}
 .qcode span {color: #ce0000;}
+.qcode div {margin-top: 10px; text-align: center;}
+.qcode img {width: 122px; height: 122px;}
 
 .box_tt {height: 50px; border-top: 3px #ce0000 solid;}
 .box_tt h3 {font-size: 0.9rem; color: #333; line-height: 50px; font-weight: bold;}
@@ -68,3 +71,10 @@ ins,a{ color: #333; text-decoration:none;}
 .ico_wx {background-position: 0 -30px}
 .ico_qzone {background-position: 0 -60px}
 .ico_tqq {background-position: 0 -90px}
+
+.list_tt {font-style: 1rem; color: #fff; line-height: 45px; text-align: center;}
+.listbox {width: 100%; margin-top: 0.5rem;}
+.listbox a {display: block; height: 87px; background: #fff; overflow: hidden;}
+.listbox_img {float: left; width: 140px; height: 87px; margin-right: 0.5rem;}
+.listbox h2 {height: 45px; margin: 5px 0; font-size: 0.8rem; font-weight: bold; overflow: hidden;}
+.listbox div {font-size: 0.7rem; line-height: 30px;}
