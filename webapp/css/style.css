@@ -19,11 +19,11 @@ textarea{resize:none;}
 q:before,q:after{content:''}
 ins,a{ color: #333; text-decoration:none;}
 
-.channel {background: url(../images/sprite.png) no-repeat 0 0;}
+.ico, .channel {background: url(../images/sprite.png) no-repeat 0 0;}
 .header {height: 45px; background: #ce0000; padding: 0 0.5rem;}
 .logo {float: left; width: 233px;}
 .logo a {display: block; height: 45px; background: url(../images/logo.png) no-repeat center center; text-indent: -9999px;background-size: 233px 45px;}
-.channel {float: right; display: block; width: 25px; height: 25px; background-size: 25px 25px; margin-top: 10px; text-indent: -9999px;}
+.channel {float: right; display: block; width: 25px; height: 25px; background-position: -30px 0; background-size: 55px 60px; margin-top: 10px; text-indent: -9999px;}
 .nav {height: 30px; background: #fff; padding: 0 0.5rem;}
 .nav li {float: left; width: 16.66%; height: 30px; font-size: 0.8rem; line-height: 30px; overflow: hidden;}
 .nav a {display: inline-block;}
@@ -34,7 +34,7 @@ ins,a{ color: #333; text-decoration:none;}
 .contentbox a {display: block; background: #fff; padding: 0 0 0.25rem;}
 .contentbox h2 {padding: 0 0.5rem; font-size: 0.8rem; font-weight: bold;}
 .contentbox div {padding: 0 0.5rem; font-size: 0.7rem; line-height: 30px;}
-.contentbox .avatar {float: left; display: block; width: 30px; margin-right: 5px; border-radius: 50%;}
+.avatar {float: left; display: block; width: 30px; margin-right: 5px; border-radius: 50%;}
 .contentbox_img {display: block; width: 100%; height: 100%; margin-bottom: 0.35rem;}
 .morebtn {display: block; height: 53px; background: #fff; margin-top: 0.5rem; font-size: 0.8rem; line-height: 53px; text-align: center;}
 
@@ -44,3 +44,27 @@ ins,a{ color: #333; text-decoration:none;}
 .footer p {color: #989898;}
 .footer p a {margin: 0 0.5rem;}
 .footer div {margin-left: 0.5rem; font-size: 0.6rem; color: #efefef;}
+
+.body_content {background: #fff;}
+
+.content_title {margin: 0.5rem 0;}
+.content_title h2 {font-size: 1rem; font-weight: bold;}
+.mod_info {height: 30px; margin-top: 0.5rem; font-size: 0.7rem; line-height: 30px; overflow: hidden;}
+.article {font-size: 0.8rem; color: #333;}
+.article img {width: 100%; height: 100%;}
+.qcode span {color: #ce0000;}
+
+.box_tt {height: 50px; border-top: 3px #ce0000 solid;}
+.box_tt h3 {font-size: 0.9rem; color: #333; line-height: 50px; font-weight: bold;}
+.txtlist li {height: 50px; font-size: 0.8rem; line-height: 50px; border-top: 2px #e5e5e5 solid; overflow: hidden;}
+
+/*share*/
+.content_pannel {height: 30px; margin: 0.5rem 0; font-size: 0.7rem;}
+.share {float: right; height: 30px; line-height: 30px;}
+.share span {float: left;}
+.share a {float: left; display: block; height: 30px; margin:0 0 0 2px; overflow: hidden;}
+.share .ico {display: block; width: 30px; height: 30px; text-indent: -9999px;}
+.ico_wb {background-position: 0 0;}
+.ico_wx {background-position: 0 -30px}
+.ico_qzone {background-position: 0 -60px}
+.ico_tqq {background-position: 0 -90px}
