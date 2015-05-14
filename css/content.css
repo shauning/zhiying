@@ -76,7 +76,7 @@
 .channelbox_list_topic {margin: 0;}
 .channelbox_list_topic li {float: none; margin: 0;}
 
-.blocklist li {height: 35px; margin-bottom: 6px; font-size: 15px; line-height: 35px;}
+.blocklist li {height: 35px; margin-bottom: 6px; font-size: 15px; line-height: 35px; overflow: hidden;}
 .blocklist .last {margin:0;}
 .blocklist a {display: block; background: #f4f4f4; text-indent: 10px;}
 .blocklist a:hover {background: #c10000; color: #fff;}
