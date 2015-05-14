@@ -19,16 +19,21 @@ textarea{resize:none;}
 q:before,q:after{content:''}
 ins,a{ color: #333; text-decoration:none;}
 
-.ico, .channel {background: url(../images/sprite.png) no-repeat 0 0;}
+.home, .ico, .channel {background: url(../images/sprite.png) no-repeat 0 0;}
 .header {position: relative; height: 45px; background: #ce0000; padding: 0 0.5rem;}
 .logo {float: left; width: 233px;}
 .logo a {display: block; height: 45px; background: url(../images/logo.png) no-repeat center center; text-indent: -9999px;background-size: 233px 45px;}
 .channel {position: absolute; right: 0.5rem; top: 10px; display: block; width: 25px; height: 25px; background-position: -30px 0; background-size: 55px 60px; text-indent: -9999px;}
+.channel_cur {background-position: -30px -25px;}
+.home {position: absolute; left: 0.5rem; top: 10px; display: block; width: 25px; height: 25px; background-position: -30px -25px; background-size: 55px 60px; text-indent: -9999px;}
+.navbar {position: relative;}
 .nav {height: 30px; background: #fff; padding: 0 0.5rem;}
 .nav li {float: left; width: 16.66%; height: 30px; font-size: 0.8rem; line-height: 30px; overflow: hidden;}
 .nav a {display: inline-block;}
 .nav .cur {height: 27px; font-weight: bold; border-bottom: 3px #ce0000 solid;}
 .nav_5 li {width: 20%;}
+.tigger:after, .morebtn:after {position: absolute; display: inline-block; content: ""; width: 0; height: 0; line-height: 0; margin-top: 12px; font-size: 0; color: #0073c6; border-style: solid; border-color: #717171 #fff #fff #fff; border-width: 5px;}
+.nav_drop {position: absolute; left: 0; top: 30px; height: auto;}
 
 .wrapper {padding:0 0.5rem;}
 .contentbox {width: 100%; margin-top: 0.5rem;}
@@ -38,6 +43,7 @@ ins,a{ color: #333; text-decoration:none;}
 .avatar {float: left; display: block; width: 30px; margin-right: 5px; border-radius: 50%;}
 .contentbox_img {display: block; width: 100%; height: 100%; margin-bottom: 0.35rem;}
 .morebtn {display: block; height: 53px; background: #fff; margin-top: 0.5rem; font-size: 0.8rem; line-height: 53px; text-align: center;}
+.morebtn:after {margin-top: 24px;}
 
 .footer {background: #686868; padding: 0.5rem 0; margin-top: 0.5rem; font-size: 0.7rem; color: #efefef;}
 .footer .nav {background: #686868; margin-bottom: 10px;}
@@ -72,9 +78,13 @@ ins,a{ color: #333; text-decoration:none;}
 .ico_qzone {background-position: 0 -60px}
 .ico_tqq {background-position: 0 -90px}
 
-.list_tt {font-style: 1rem; color: #fff; line-height: 45px; text-align: center;}
+.list_tt {font-size: 1rem; color: #fff; line-height: 45px; text-align: center;}
 .listbox {width: 100%; margin-top: 0.5rem;}
 .listbox a {display: block; height: 87px; background: #fff; overflow: hidden;}
 .listbox_img {float: left; width: 140px; height: 87px; margin-right: 0.5rem;}
 .listbox h2 {height: 45px; margin: 5px 0; font-size: 0.8rem; font-weight: bold; overflow: hidden;}
 .listbox div {font-size: 0.7rem; line-height: 30px;}
+
+.channelbox h2 {padding: 0 0.5rem; font-size: 0.9rem; line-height: 30px; font-weight: bold; border-bottom: 3px #ec0000 solid;}
+.channellist {background: #fff; padding: 0.3rem 0.5rem; overflow: hidden;}
+.channellist li {float: left; width: 20%; height: 30px; font-size: 0.8rem; line-height: 30px; overflow: hidden;}
