@@ -17,7 +17,7 @@ h1 {position: absolute; left: -9999px;}
 .globelnav_drop a {float: left; display: block; width: 86px; padding: 0; font-size: 15px; line-height: 34px; text-align: center;}
 .globelnav_drop a:hover {background: #c10000; color: #fff;}
 .globelnav_drop_col1 {right: -106px; width: 86px;}
-.globelsearch input {width: 110px; height: 16px; background-position: 0 -191px; background-color: transparent; padding: 9px 10px; color: #ffd5d5; line-height: 16px; border: none; text-indent: 22px;}
+.globelsearch input {width: 110px; height: 16px; background-position: 0 -191px; background-color: transparent; padding: 9px 10px; color: #fff; line-height: 16px; border: none; text-indent: 22px;}
 .globelsearch input:focus, .globelsearch .cur {background-position: 0 -225px; color: #333; text-indent: 0;}
 .globelslogan {margin: 10px 0 3px; font-size: 13px; color: #c10000; text-indent: 3px;}
 .globelcode {font-size: 13px;}
@@ -72,7 +72,7 @@ h1 {position: absolute; left: -9999px;}
 .minidrop_user .minidrop_con a {display: block; width: 100px; font-size: 14px; color: #fff; line-height: 30px; text-align: center;}
 .minidrop_user .minidrop_con a:hover {background: #f40316;}
 .mininav_search {float: right; width: 151px; height: 32px; margin-top: 14px;}
-.mininav_search input {width: 131px; background-position: -115px -33px; padding: 8px 10px;}
+.mininav_search input {width: 131px; background-position: -115px -33px; padding: 8px 10px; color: #ffd5d5;}
 .mininav_search input:focus, .mininav_search .cur {background-position: -115px 0;}
 .w1140 .globelnav {display: none;}
 .w1140 .mininav {display: block;}
