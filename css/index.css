@@ -144,6 +144,7 @@ a:hover {color:#c10000;transition:all .2s ease-in-out;}
 .imgmod_info p em {margin-right: 10px; color: #555;}
 .imgmod_mask {position: absolute; left: 0; bottom: 0; width: 100%; height: 100px;transition:all .3s ease;-webkit-transition:all .3s ease;}
 .imgmod .pic:hover {color: #fff;}
+.icon_vod { left: 50%; top: 59%; width: 43px; height: 43px; background-position: 0 -253px; margin: -85px 0 0 -21px;}
 .pic:hover .imgmod_info p, .pic:hover .imgmod_info p em {color: #ffd5d5;}
 .pic:hover .imgmod_info h3 {height: 46px !important; color: #fff; white-space: normal;}
 .pic:hover .imgmod_info {height: 122px;}
