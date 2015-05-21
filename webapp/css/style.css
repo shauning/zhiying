@@ -4,7 +4,7 @@
  * @time   ------- 2015-05-12*/
 /*reset*/
 html {overflow-y: scroll}
-html, body {background: #efefef; font:20px/1.5 "Helvetica Neue", Helvetica, STHeiTi, sans-serif; color:#666; -webkit-tap-highlight-color:rgba(0,0,0,0);}
+html, body {background: #fff; font:20px/1.5 "Helvetica Neue", Helvetica, STHeiTi, sans-serif; color:#666; -webkit-tap-highlight-color:rgba(0,0,0,0);}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}
 fieldset,img { border:0; }
 address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:500; }
@@ -35,7 +35,8 @@ ins,a{ color: #333; text-decoration:none;}
 .tigger:after, .morebtn:after {position: absolute; display: inline-block; content: ""; width: 0; height: 0; line-height: 0; margin-top: 12px; font-size: 0; color: #0073c6; border-style: solid; border-color: #717171 #fff #fff #fff; border-width: 5px;}
 .nav_drop {position: absolute; left: 0; top: 30px; height: auto;}
 
-.wrapper {padding:0 0.5rem;}
+.wrapper {padding:0 0.5rem; overflow: hidden;}
+.wrapper_index {background: #efefef;}
 .contentbox {width: 100%; margin-top: 0.5rem;}
 .contentbox a {display: block; background: #fff; padding: 0 0 0.25rem;}
 .contentbox h2 {padding: 0 0.5rem; font-size: 0.8rem; font-weight: bold;}
@@ -57,8 +58,9 @@ ins,a{ color: #333; text-decoration:none;}
 .content_title {margin: 0.5rem 0;}
 .content_title h2 {font-size: 1rem; font-weight: bold;}
 .mod_info {height: 30px; margin-top: 0.5rem; font-size: 0.7rem; line-height: 30px; overflow: hidden;}
-.article {font-size: 0.9rem; color: #333;}
+.article {padding-top: 0.5rem; font-size: 0.9rem; color: #333; border-top: 1px #e0e0e0 solid;}
 .article img {width: 100%; height: 100%;}
+.qcode {margin-top: 20px;}
 .qcode span {color: #ce0000;}
 .qcode div {margin-top: 10px; text-align: center;}
 .qcode img {width: 122px; height: 122px;}
@@ -80,11 +82,35 @@ ins,a{ color: #333; text-decoration:none;}
 
 .list_tt {font-size: 1rem; color: #fff; line-height: 45px; text-align: center;}
 .listbox {width: 100%; margin-top: 0.5rem;}
-.listbox a {display: block; height: 87px; background: #fff; overflow: hidden;}
-.listbox_img {float: left; width: 140px; height: 87px; margin-right: 0.5rem;}
-.listbox h2 {height: 45px; margin: 5px 0; font-size: 0.8rem; font-weight: bold; overflow: hidden;}
-.listbox div {font-size: 0.7rem; line-height: 30px;}
+.listbox a {display: block; height: 69px; background: #fff; overflow: hidden;}
+.listbox_img {float: left; width: 110px; height: 69px; margin-right: 0.5rem;}
+.listbox h2 {height: 45px; margin: 3px 0 2px; font-size: 0.8rem; font-weight: bold; overflow: hidden;}
+.listbox div {font-size: 0.6rem; color: #666; line-height: 18px;}
+.listbox .avatar {display: none;}
 
 .channelbox h2 {padding: 0 0.5rem; font-size: 0.9rem; line-height: 30px; font-weight: bold; border-bottom: 3px #ec0000 solid;}
 .channellist {background: #fff; padding: 0.3rem 0.5rem; overflow: hidden;}
 .channellist li {float: left; width: 20%; height: 30px; font-size: 0.8rem; line-height: 30px; overflow: hidden;}
+.channeldrop {position:absolute; left: 0; top: 45px; width: 100%; height: 300px; background: rgba(206,0,0,0.9); z-index: 3;}
+.channeldrop li {float: left; width: 33%; height: 95px; margin-top: 15px; font-size: 0.8rem; text-align: center;}
+.channeldrop ul {overflow: hidden;}
+.channeldrop a {color: #fff;}
+.channeldrop .ico {display: block; width: 70px; height: 71px; background: url(../images/ico.png) no-repeat; background-size: 220px 145px; margin: 0 auto 5px;}
+.nav_2 .ico {background-position: -75px 0;}
+.nav_3 .ico {background-position: -150px 0;}
+.nav_4 .ico {background-position: 0 -75px;}
+.nav_5 .ico {background-position: -75px -75px;}
+.nav_6 .ico {background-position: -150px -75px;}
+.channeldrop_close {margin-top: 40px; font-size: 0.8rem; text-align: center; line-height: 30px;}
+.channeldrop_close a {background: url(../images/arrow.png) no-repeat left center; background-size: 16px 16px; padding-left: 20px;}
+
+.rankbox_bar {height: 40px; background: #ffd21a; margin-top: 10px; overflow: hidden;}
+.rankbox_bar_tab {line-height: 40px;}
+.rankbox_bar_tab a {margin: 0 15px; font-size: 0.8rem;}
+.rankbox_bar_tab .cur {color: #c10000; font-weight: bold;}
+.ranklist {margin-left: -5%; overflow: hidden;}
+.ranklist li {float: left; width: 45%; margin: 15px 0 0 5%; text-align: center;}
+.ranklist em {color: #ce0000;}
+
+.sitelist li {float: left; width: 25%; margin-top: 20px; font-size: 0.8rem; text-align: center;}
+.sitelist img {display: block; width: 60px; margin: 0 auto 5px;}
