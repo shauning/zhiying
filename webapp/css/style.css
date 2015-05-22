@@ -66,8 +66,9 @@ ins,a{ color: #333; text-decoration:none;}
 .qcode img {width: 122px; height: 122px;}
 
 .box_tt {height: 50px; border-top: 3px #ce0000 solid;}
-.box_tt h3 {font-size: 0.9rem; color: #333; line-height: 50px; font-weight: bold;}
+.box_tt h3 {float: left; font-size: 0.9rem; color: #333; line-height: 50px; font-weight: bold;}
 .txtlist li {height: 50px; font-size: 0.8rem; line-height: 50px; border-top: 2px #e5e5e5 solid; overflow: hidden;}
+.box_C .box_tt {border: none;}
 
 /*share*/
 .content_pannel {height: 30px; margin: 0.5rem 0; font-size: 0.7rem;}
@@ -114,3 +115,22 @@ ins,a{ color: #333; text-decoration:none;}
 
 .sitelist li {float: left; width: 25%; margin-top: 20px; font-size: 0.8rem; text-align: center;}
 .sitelist img {display: block; width: 60px; margin: 0 auto 5px;}
+
+.mod_tag {margin:0.5rem 0 0;}
+.mod_tag a {display: inline-block; background: #ebebeb; padding: 0 10px; margin-right: 3px; line-height: 24px; border: solid #e7e7e7 1px;}
+.mod_tag a:hover {background: #c10000; color: #fff; border-color: #c10000;}
+.mod_tag_big a {font-size: 14px; line-height: 26px;}
+.moviedetail {position: relative;  padding-left: 145px; margin: 0.5rem 0; overflow: hidden;}
+.moviedetail .pic {position: absolute; left: 0; top: 0; width: 135px;}
+.moviedetail img {width: 135px;}
+.moviedetail h2 {font-size: 0.9rem;}
+.moviedetail p {height: 26px; font-size: 0.7rem; line-height: 26px; overflow: hidden;}
+.moviedetail_btn {display: block; width: 122px; height: 38px; background: url(../images/btn_1.png); font-size: 18px; color: #fff !important; line-height: 38px; text-indent: 45px;}
+.movie_intro {margin-top: 10px;font-size: 0.7rem;}
+.movie_intro a {color: #c10000;}
+
+.movielist {overflow: hidden;}
+.movielist li {float: left; width: 33%; padding: 0 5px; font-size: 0.7rem; text-align: center; box-sizing: border-box;}
+.movielist img {width: 100%;}
+.act_fresh {float: right; font-size: 0.8rem; line-height: 50px;}
+.act_fresh a {color: #c10000;}
