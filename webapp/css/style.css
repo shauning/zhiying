@@ -43,7 +43,7 @@ ins,a{ color: #333; text-decoration:none;}
 .contentbox div {padding: 0 0.5rem; font-size: 0.7rem; line-height: 30px;}
 .avatar {float: left; display: block; width: 30px; margin-right: 5px; border-radius: 50%;}
 .contentbox_img {display: block; width: 100%; height: 100%; margin-bottom: 0.35rem;}
-.morebtn {display: block; height: 53px; background: #fff; margin-top: 0.5rem; font-size: 0.8rem; line-height: 53px; text-align: center;}
+.morebtn {display: block; height: 53px; background: #fff; margin: 0.5rem 0; font-size: 0.8rem; line-height: 53px; text-align: center;}
 .morebtn:after {margin-top: 24px;}
 
 .footer {background: #686868; padding: 0.5rem 0; margin-top: 0.5rem; font-size: 0.7rem; color: #efefef;}
@@ -59,6 +59,7 @@ ins,a{ color: #333; text-decoration:none;}
 .content_title h2 {font-size: 1rem; font-weight: bold;}
 .mod_info {height: 30px; margin-top: 0.5rem; font-size: 0.7rem; line-height: 30px; overflow: hidden;}
 .article {padding-top: 0.5rem; font-size: 0.9rem; color: #333; border-top: 1px #e0e0e0 solid;}
+.article p {text-indent: 2em;}
 .article img {width: 100%; height: 100%;}
 .qcode {margin-top: 20px;}
 .qcode span {color: #ce0000;}
@@ -110,8 +111,10 @@ ins,a{ color: #333; text-decoration:none;}
 .rankbox_bar_tab a {margin: 0 15px; font-size: 0.8rem;}
 .rankbox_bar_tab .cur {color: #c10000; font-weight: bold;}
 .ranklist {margin-left: -5%; overflow: hidden;}
-.ranklist li {float: left; width: 45%; margin: 15px 0 0 5%; text-align: center;}
+.ranklist li {float: left; width: 45%; margin: 15px 0 0 5%; text-align: center; overflow: hidden;}
 .ranklist em {color: #ce0000;}
+.ranklist img {min-height: 200px; max-height: 200px;}
+@media screen and (orientation:landscape){.ranklist img {min-height: 308px; max-height: 308px;}}
 
 .sitelist li {float: left; width: 25%; margin-top: 20px; font-size: 0.8rem; text-align: center;}
 .sitelist img {display: block; width: 60px; margin: 0 auto 5px;}

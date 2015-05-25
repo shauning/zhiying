@@ -131,7 +131,8 @@
 .moviedetail .pic {position: absolute; left: 0; top: 0;}
 .moviedetail h2 {margin-bottom: 10px; font-size: 25px;}
 .moviedetail p {font-size: 15px; line-height: 26px; overflow: hidden;}
-.moviedetail .mod_tag {margin: 10px 0;}
+.moviedetail .mod_tag {margin: 5px 0 10px;}
+.moviedetail .mod_tag a {margin-top: 5px;}
 .moviedetail_btn {display: block; width: 122px; height: 38px; background: url(../images/btn_1.png); font-size: 18px; color: #fff !important; line-height: 38px; text-indent: 45px;}
 .movie_intro {margin-top: 10px;}
 .movie_intro p {font-size: 15px; line-height: 26px;}
