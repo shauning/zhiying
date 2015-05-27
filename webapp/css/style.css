@@ -26,9 +26,9 @@ ins,a{ color: #333; text-decoration:none;}
 .channel {position: absolute; right: 0.5rem; top: 10px; display: block; width: 25px; height: 25px; background-position: -30px 0; background-size: 55px 60px; text-indent: -9999px;}
 .channel_cur {background-position: -30px -25px;}
 .home {position: absolute; left: 0.5rem; top: 10px; display: block; width: 25px; height: 25px; background-position: -30px -25px; background-size: 55px 60px; text-indent: -9999px;}
-.navbar {position: relative; height: 30px; margin-bottom: 0.5rem;}
+.navbar {position: relative; height: 30px; margin-bottom: 0.5rem; z-index: 2;}
 .nav {height: 30px; background: #f6f6f6; padding: 0 0.5rem; overflow: hidden;}
-.nav li {float: left; width: 25%; height: 30px; font-size: 0.8rem; line-height: 30px; overflow: hidden;}
+.nav li {float: left; width: 25%; height: 30px; margin-bottom: 5px; font-size: 0.8rem; line-height: 30px; overflow: hidden;}
 .nav a {display: inline-block;}
 .nav .cur a {height: 27px; font-weight: bold; border-bottom: 3px #ce0000 solid;}
 .nav_show {height: auto;}
