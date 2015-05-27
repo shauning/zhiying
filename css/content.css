@@ -140,7 +140,7 @@
 .moviedetail_small {height: 230px; background: #f4f4f4; padding-left: 190px;}
 .moviedetail_small h3 {margin: 10px 0; font-size: 22px;}
 .moviedetail_small p {width: 340px; height: 24px; font-size: 14px; line-height: 24px;}
-.moviedetail_small .mod_tag {margin: 3px 0;}
+.moviedetail_small .mod_tag {margin: 0;}
 .moviedetail_small .mod_tag a {background: #fff;}
 .moviedetail_small .moviedetail_btn {width: 91px; height: 28px; background-position: 0 -39px; font-size: 15px; line-height: 28px; text-indent: 35px;}
 .moviedetail_small .score {position: absolute; right: 20px; top: 74px; font-size: 13px; color: #999;}
@@ -163,8 +163,8 @@
 .rankbox_list li {height: 230px; margin-top: 20px;}
 .rankbox_list .num {position: absolute; left: 0; top: 0; width: 44px; background: #b50b0b; font-size: 20px; color: #fff; line-height: 35px; text-align: center; z-index: 2;}
 .rankbox_list_img {margin-left: -20px;}
-.rankbox_list_img li {float: left; width: 165px; height: 250px; margin: 20px 0 0 20px; overflow: hidden;}
-.rankbox_list_img img {display: block; width: 165px; height: 230px;}
+.rankbox_list_img li {float: left; width: 165px; height: 255px; margin: 20px 0 0 20px; overflow: hidden;}
+.rankbox_list_img img {display: block; width: 165px; height: 230px; margin-bottom: 5px;}
 .rankbox_list_img a {display: block; font-size: 16px;}
 .rankbox_list_img em {margin: 5px; font-size: 18px; color: #d60f00;}
 .rankbox_list .mod_tag_big a:hover {background: #c10000;}

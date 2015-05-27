@@ -128,9 +128,8 @@ ins,a{ color: #333; text-decoration:none;}
 .sitelist img {display: block; width: 60px; margin: 0 auto 5px;}
 
 .mod_tag {margin:0.5rem 0 0;}
-.mod_tag a {display: inline-block; background: #ebebeb; padding: 0 10px; margin-right: 3px; line-height: 24px; border: solid #e7e7e7 1px;}
-.mod_tag a:hover {background: #c10000; color: #fff; border-color: #c10000;}
-.mod_tag_big a {font-size: 14px; line-height: 26px;}
+.mod_tag span {display: inline-block; background: #ebebeb; padding: 0 10px; margin-right: 3px; line-height: 24px; border: solid #e7e7e7 1px;}
+.mod_tag_big span {font-size: 14px; line-height: 26px;}
 .moviedetail {position: relative;  padding-left: 145px; margin: 0.5rem 0; overflow: hidden;}
 .moviedetail .pic {position: absolute; left: 0; top: 0; width: 135px;}
 .moviedetail img {width: 135px;}
