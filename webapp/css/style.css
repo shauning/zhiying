@@ -71,8 +71,8 @@ ins,a{ color: #333; text-decoration:none;}
 .article img {width: 100%; height: 100%;}
 .qcode {margin-top: 20px;}
 .qcode span {color: #ce0000;}
-.qcode div {margin-top: 10px; text-align: center;}
-.qcode img {width: 122px; height: 122px;}
+.qcode div {margin-top: 10px;}
+.qcode img {width: 100%;}
 
 .box_tt {height: 50px; border-top: 3px #ce0000 solid;}
 .box_tt h3 {float: left; font-size: 0.9rem; color: #333; line-height: 50px; font-weight: bold;}
@@ -144,3 +144,12 @@ ins,a{ color: #333; text-decoration:none;}
 .movielist img {width: 100%;}
 .act_fresh {float: right; font-size: 0.8rem; line-height: 50px;}
 .act_fresh a {color: #c10000;}
+
+.about h2 {font-size: 1rem; color: #c10000; line-height: 40px; text-align: center;}
+.about h3 {margin: 1rem 0 0; font-size: 0.9rem; font-weight: bold;}
+.about h4 {margin-top: 1rem; font-size: 0.9rem;}
+.about p {margin-top: 0.5rem; font-size: 0.8rem; text-indent: 2em;}
+.about div {text-align: center;}
+.about img {width: 80%;}
+.about li {margin-top: 0.5rem; font-size: 0.8rem;}
+.about strong {margin-right: 5px; color: #333; font-weight: bold;}
