@@ -141,7 +141,8 @@ ins,a{ color: #333; text-decoration:none;}
 
 .movielist {overflow: hidden;}
 .movielist li {float: left; width: 33%; padding: 0 5px; font-size: 0.7rem; text-align: center; box-sizing: border-box;}
-.movielist img {width: 100%;}
+.movielist img {width: 100%; min-height: 130px; max-height: 130px;}
+@media screen and (orientation:landscape){.movielist img {width: 100%; min-height: 165px; max-height: 165px;}}
 .act_fresh {float: right; font-size: 0.8rem; line-height: 50px;}
 .act_fresh a {color: #c10000;}
 
