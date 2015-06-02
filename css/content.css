@@ -154,7 +154,7 @@
 .rankbox_bar_tab .cur {color: #c10000; font-weight: bold;}
 .rankbox_bar_order {float: right; margin-top: 9px;}
 .rankbox_bar_order a {position: relative; padding-left: 20px; margin: 0 20px 0 0; font-size: 16px;}
-.rankbox_bar_order .icon {left: 0; top: 4px; width: 16px; height: 15px; background: url(../images/rankbox_bar.png);}
+.rankbox_bar_order .icon {left: 0; top: 1px; width: 16px; height: 15px; background: url(../images/rankbox_bar.png);}
 .rankbox_bar_order .icon_pic {background-position: -17px 0;}
 .rankbox_bar_order .cur {color: #c10000;}
 .rankbox_bar_order .cur .icon_txt {background-position: 0 -16px;}

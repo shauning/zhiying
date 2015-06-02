@@ -120,6 +120,7 @@ ins,a{ color: #333; text-decoration:none;}
 .rankbox_bar_tab .cur {color: #c10000; font-weight: bold;}
 .ranklist {margin-left: -5%; overflow: hidden;}
 .ranklist li {float: left; width: 45%; margin: 15px 0 0 5%; text-align: center; overflow: hidden;}
+.ranklist a {display: block; height: 235px; overflow: hidden;}
 .ranklist em {color: #ce0000;}
 .ranklist img {min-height: 200px; max-height: 200px;}
 @media screen and (orientation:landscape){.ranklist img {min-height: 308px; max-height: 308px;}}
