@@ -96,9 +96,9 @@
 .imgMod_info .icon_star {background-position: 0 -60px}
 .imgMod_info span {position: absolute; display: block; left: 10px; top: 128px; height: 30px; padding-left: 35px; margin-top: 5px; font-size: 15px; color: #fff; line-height: 30px;}
 .imgMod_nor .show, .imgMod_nor .pic {height: 240px;}
-.imgMod_nor .pic:hover {background: #c10000;}
-.imgMod_nor .pic:hover h4 {color: #fff;}
-.imgMod_nor .pic:hover .imgMod_info p, .imgMod_nor .pic:hover .imgMod_info p em {color: #ffd5d5;}
+.imgMod_nor .pic:hover, .imgMod_nor .show .pic {background: #c10000;}
+.imgMod_nor .pic:hover h4, .imgMod_nor .show .pic h4 {color: #fff;}
+.imgMod_nor .pic:hover .imgMod_info p, .imgMod_nor .pic:hover .imgMod_info p em, .imgMod_nor .show .pic .imgMod_info p, .imgMod_nor .show .pic .imgMod_info p em {color: #ffd5d5;}
 
 .channel li {background: #f4f4f4;}
 .channel .btn {background: #fff;}
