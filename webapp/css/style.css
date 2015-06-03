@@ -125,7 +125,7 @@ ins,a{ color: #333; text-decoration:none;}
 .ranklist img {min-height: 200px; max-height: 200px;}
 @media screen and (orientation:landscape){.ranklist img {min-height: 308px; max-height: 308px;}}
 
-.sitelist li {float: left; width: 25%; margin-top: 20px; font-size: 0.8rem; text-align: center;}
+.sitelist li {float: left; width: 25%; max-height: 89px; margin-top: 20px; font-size: 0.8rem; text-align: center; overflow: hidden;}
 .sitelist img {display: block; width: 60px; margin: 0 auto 5px;}
 
 .mod_tag {margin:0.5rem 0 0;}
