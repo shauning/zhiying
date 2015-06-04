@@ -103,6 +103,7 @@ a:hover {color:#c10000;transition:all .2s ease-in-out;}
 /*contentlist*/
 .contentlist li {height: 170px; background: #fff; padding-right: 20px; margin-top: 20px;}
 .contentlist .pic {float: left; display: block; width: 270px; height: 170px; padding-left: 6px; margin:0 20px 0 -6px;}
+.contentlist .pic img {width: 270px; height: 170px;}
 .contentlist .pic:hover {background: #c10000;}
 .contentlist h4 {height: 24px; padding-top: 12px; font-size: 20px; line-height: 22px; font-weight: bold; overflow: hidden;}
 .contentlist p {height: 42px; margin-top: 10px; font-size: 14px; overflow: hidden;}

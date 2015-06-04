@@ -46,13 +46,14 @@ ins,a{ color: #333; text-decoration:none;}
 .wrapper {padding:0 0.5rem; overflow: hidden;}
 .wrapper_index {background: #efefef;}
 .contentbox {width: 100%; margin-top: 0.5rem;}
-.contentbox a {display: block; background: #fff; padding: 0 0 0.25rem;}
+.contentbox a {display: block; background: #fff; padding: 0 0 0.25rem; border-radius: 9px; overflow: hidden;}
 .contentbox h2 {padding: 0 0.5rem; font-size: 0.8rem; font-weight: bold;}
-.contentbox div {padding: 0 0.5rem; font-size: 0.7rem; line-height: 30px;}
+.contentbox p {position: absolute; bottom: 0px; left: 0; box-size:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; width: 100%; background: rgba(0,0,0,0.4); padding: 5px 0.5rem; font-size: 0.6rem; color: #f0f0f0; line-height: 30px;}
 .avatar {float: left; display: block; width: 30px; margin-right: 5px; border-radius: 50%;}
 .contentbox_img {display: block; width: 100%; height: 100%; margin-bottom: 0.35rem;}
 .morebtn {display: block; height: 53px; background: #fff; font-size: 0.8rem; line-height: 53px; text-align: center; border: 0.5rem #efefef solid;}
 .morebtn:after {margin-top: 24px;}
+.contentbox .pic {position: relative;}
 
 .footer {background: #686868; padding: 0.5rem 0; margin-top: 0.5rem; font-size: 0.7rem; color: #efefef;}
 .footer .nav {background: #686868; margin-bottom: 10px;}

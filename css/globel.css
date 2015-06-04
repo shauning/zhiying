@@ -139,7 +139,7 @@ a:hover {color:#c10000;/*transition:all .5s ease-in-out;*/}
 .content .morebox a {background: #f4f4f4;}
 
 .movielist {margin-left: -20px;}
-.movielist li {float: left; width: 165px; margin: 20px 0 0 20px; font-size: 15px; text-align: center;}
+.movielist li {float: left; width: 165px; margin: 20px 0 0 20px; font-size: 15px; text-align: center; overflow: hidden;}
 .movielist .pic {width: 165px; height: 230px; margin-bottom: 5px;}
 
 .loginbox {width: 560px; background: #fff;}
