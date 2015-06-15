@@ -49,7 +49,7 @@ ins,a{ color: #333; text-decoration:none;}
 .contentbox a {display: block; background: #fff; padding: 0 0 0.25rem; border-radius: 9px; overflow: hidden;}
 .contentbox h2 {padding: 0 0.5rem; font-size: 0.8rem; font-weight: bold;}
 .contentbox p {position: absolute; bottom: 0px; left: 0; box-size:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; width: 100%; background: rgba(0,0,0,0.4); padding: 5px 0.5rem; font-size: 0.6rem; color: #f0f0f0; line-height: 30px;}
-.avatar {float: left; display: block; width: 30px; margin-right: 5px; border-radius: 50%;}
+.avatar {float: left; display: none; width: 30px; margin-right: 5px; border-radius: 50%;}
 .contentbox_img {display: block; width: 100%; height: 100%; margin-bottom: 0.35rem;}
 .morebtn {display: block; height: 53px; background: #fff; font-size: 0.8rem; line-height: 53px; text-align: center; border: 0.5rem #efefef solid;}
 .morebtn:after {margin-top: 24px;}
