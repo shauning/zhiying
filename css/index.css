@@ -224,3 +224,27 @@ a:hover {color:#c10000;transition:all .2s ease-in-out;}
 .feedback textarea {float: left; width: 238px; height: 100px; padding: 10px; margin-top: 10px; border: 1px #ccc solid;}
 .feedback button {float: left; width: 260px; margin-top: 10px; line-height: 30px;}
 .feedback input:focus, .feedback textarea:focus {border-color: #c10000; transition:all .2s ease-in-out;}
+
+.scrollmod {position: relative; height: 510px;}
+.scrollmod_con {position: relative; width: 1140px; height: 510px; overflow: hidden;}
+.scrollmod_con ul {position: relative;}
+.scrollbtn {position: absolute; top: 200px; display: none; width: 48px; height: 70px; background: url(../images/scrollbtn.png); text-indent: -9999px;}
+.scrollbtn_pre {left: 0;}
+.scrollbtn_pre:hover {background-position: 0 -71px;}
+.scrollbtn_next {right: 0; background-position: -49px 0}
+.scrollbtn_next:hover {background-position: -49px -71px;}
+.scrollbtn_pre_false, .scrollbtn_next_false {opacity: 0.2;filter:alpha(opacity=20); cursor: default;}
+.scrollbtn_pre_false:hover { background-position: 0 0;}
+.scrollbtn_next_false:hover { background-position: -49px 0;}
+.scrollmod:hover .scrollbtn {display: block;}
+
+.imgmod_new .imgmod_info h3 {position: relative; margin-top: 45px;}
+.imgmod_new .imgmod_info h3 em {position: absolute; right: 0; top: 0; color: #f00;}
+.imgmod_new .imgmod_info p {font-size: 14px;}
+.imgmod_new .pic:hover .imgmod_info h3 {height: 22px !important; margin-top: 8px;}
+.imgmod_new .pic:hover .imgmod_info h3 em {color: #fff;}
+.imgmod_new .pic:hover .imgmod_mask {height: 155px;}
+.imgmod_new .pic:hover .imgmod_info {height: 155px;}
+.imgmod_new .p_1 {margin-top: 20px;}
+.imgmod_new .p_3 {margin-top: 10px;}
+.imgmod_new .pic:hover .p_3 {color: #fdfc00;}
