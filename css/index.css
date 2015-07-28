@@ -90,6 +90,9 @@ a:hover {color:#c10000;transition:all .2s ease-in-out;}
 .box_tt h3 {float: left; font-size: 30px; line-height: 34px; font-weight: bold;}
 .box_side {margin-bottom: 15px;}
 .box_side .box_tt h3 {font-size: 24px; line-height: 40px;}
+.tabbox {float: left;}
+.tabbox a {float: left; background: #dcdcdc; padding: 0 20px; margin-left: 10px; font-size: 20px; line-height: 34px; border-radius: 15px;}
+.tabbox .on {background: #c10000; color: #fff;}
 .act {float: right; margin-top: 4px;}
 .act_fresh {margin-right: 260px; line-height: 27px;}
 .act_fresh a {position: relative; padding-left: 35px; font-size: 16px; color: #c10000;}
@@ -248,3 +251,6 @@ a:hover {color:#c10000;transition:all .2s ease-in-out;}
 .imgmod_new .p_1 {margin-top: 20px;}
 .imgmod_new .p_3 {margin-top: 10px;}
 .imgmod_new .pic:hover .p_3 {color: #fdfc00;}
+.zydata {position: absolute; right: 10px; top: 50px; display: none; width: 100px; height: 100px; background: url(../images/zydata.png);}
+.zydata_nice {background: url(../images/zydata_nice.png);}
+.imgmod_new .pic:hover .zydata {display: block;}
